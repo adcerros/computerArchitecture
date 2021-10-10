@@ -4,26 +4,32 @@
 #include <iomanip>
 #include <cmath>
 #include <random>
+#include <sys/time.h>
 
 using namespace std;
 //Definicion del objeto
 struct object {
         bool exists;
-        double px, py, pz;
-        double vx, vy, vz;
-        double ax, ay, az;
-        double fx, fy, fz;
+        float px, py, pz;
+        float vx, vy, vz;
+        float ax, ay, az;
+        float fx, fy, fz;
         double mass;
 };
 
-void generateDocuments(string path, object * objects, double size_enclosure, double time_step, int num_objects){
+void generateDocuments(string path, object * objects, float size_enclosure, float time_step, int num_objects){
         ofstream file;
         file.open(path, ofstream::out | ofstream::trunc);
         file  << size_enclosure << " " << time_step << " " << num_objects <<"\n";
         for(int i = 0; i < num_objects; i++){
-                file << objects[i].px << " " << objects[i].py <<  " " << objects[i].pz 
-                <<  " " <<  0 <<  " " << 0 <<  " " << 0
-                <<  " " << objects[i].mass <<  "\n";
+                if (objects[i].exists == false){
+                        file << "The object " << i << " has merged" << "\n";
+                }
+                else{
+                        file << objects[i].px << " " << objects[i].py <<  " " << objects[i].pz 
+                        <<  " " <<  0 <<  " " << 0 <<  " " << 0
+                        <<  " " << objects[i].mass <<  "\n";
+                }
         }
         file.close();       
 };
@@ -31,7 +37,9 @@ void generateDocuments(string path, object * objects, double size_enclosure, dou
 
 
 int main (int argc, char * argv[]){
-        
+        struct timeval start;
+        gettimeofday(&start, NULL);
+        long int startms = start.tv_sec * 1000 + start.tv_usec / 1000;
         // Comprobacion del numero de entradas
         int numberOfParams = argc - 1;
         if (numberOfParams!= 5){
@@ -42,16 +50,16 @@ int main (int argc, char * argv[]){
         int num_objects = stoi(argv[1]);
         int num_iterations = stoi(argv[2]);
         int random_seed = stoi(argv[3]);
-        double size_enclosure = stof(argv[4]);
-        double time_step = stof(argv[5]);
+        float size_enclosure = stof(argv[4]);
+        float time_step = stof(argv[5]);
         if (num_objects < 0 | num_iterations < 0 | random_seed <= 0 | size_enclosure <= 0 | time_step <= 0){
                 cerr << "sim-soa invoked with " + to_string(numberOfParams) + " parameters.\n";
                 return -2;    
         }
         // Se inicializa el generador de numeros aleatorios
         mt19937_64 generator(random_seed);
-        uniform_real_distribution<double> dis_uniform(0.0, size_enclosure);
-        normal_distribution<double> dis_normal(pow(10,21), pow(10,15));
+        uniform_real_distribution<float> dis_uniform(0.0, size_enclosure);
+        normal_distribution<float> dis_normal(pow(10,21), pow(10,15));
 
         
         // Se generan las condiciones iniciales
@@ -76,7 +84,7 @@ int main (int argc, char * argv[]){
         generateDocuments("./init_config.txt", objects, size_enclosure, time_step, num_objects);
 
         //Bucle principal
-        double gConst = 6.674 * (1/pow(10,11));
+        float gConst = 6.674 * (1/pow(10,11));
         for (int iteration = 0; iteration < num_iterations; iteration++){
                 //Comprobacion de colisiones
                 for (int i = 0; i < num_objects-1; i++){
@@ -84,7 +92,6 @@ int main (int argc, char * argv[]){
                                 for (int j = i+1; j< num_objects; j++){
                                         if (objects[j].exists == true){
                                                 if (objects[i].px == objects[j].px && objects[i].py && objects[j].py && objects[i].pz && objects[j].pz){
-                                                        cout << "El objeto: " << i << " se fusiona con el objeto: " << j << endl;
                                                         objects[i].mass = objects[i].mass + objects[j].mass;
                                                         objects[i].vx = objects[i].vx + objects[j].vx;
                                                         objects[i].vy = objects[i].vy + objects[j].vy;
@@ -98,14 +105,14 @@ int main (int argc, char * argv[]){
                 //Calculo de fuerzas
                 for (int i = 0; i < num_objects; i++){
                         if (objects[i].exists == true) {
-                                double xforce = 0, yforce = 0, zforce = 0;  
+                                float xforce = 0, yforce = 0, zforce = 0;  
                                 for (int j = 0; j < num_objects; j++){
                                         if (objects[j].exists == true & i != j){                                              
-                                                double x = 0, y = 0, z = 0;  
+                                                float x = 0, y = 0, z = 0;  
                                                 x = objects[j].px - objects[i].px;
                                                 y = objects[j].py - objects[i].py;
                                                 z = objects[j].pz - objects[i].pz;
-                                                double botPart = pow(sqrt(pow(x,2) + pow(y,2) + pow(z,2)),3);  
+                                                float botPart = pow(sqrt(pow(x,2) + pow(y,2) + pow(z,2)),3);  
                                                 xforce += (gConst * objects[i].mass * objects[j].mass * x)/botPart;
                                                 yforce += (gConst * objects[i].mass * objects[j].mass * y)/botPart;
                                                 zforce += (gConst * objects[i].mass * objects[j].mass * z)/botPart;
@@ -154,7 +161,12 @@ int main (int argc, char * argv[]){
                         }
                 }
         }
-        generateDocuments("./final_config.txt", objects, size_enclosure, time_step, num_objects);             
+        generateDocuments("./final_config.txt", objects, size_enclosure, time_step, num_objects);
+        struct timeval end;
+        gettimeofday(&end, NULL);
+        long int endms = end.tv_sec * 1000 + end.tv_usec / 1000;
+        long int timeRunning = endms - startms;
+        cout << "Execution time; "<<  timeRunning << " milisecond/s" << endl;      
         return 0;
 };
 
