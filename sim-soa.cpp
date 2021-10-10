@@ -51,7 +51,7 @@ int main (int argc, char * argv[]){
         // Se inicializa el generador de numeros aleatorios
         mt19937_64 generator(random_seed);
         uniform_real_distribution<double> dis_uniform(0.0, size_enclosure);
-        normal_distribution<double> dis_normal(pow(50,1), pow(10,1));
+        normal_distribution<double> dis_normal(pow(10,21), pow(10,15));
 
         
         // Se generan las condiciones iniciales
@@ -78,17 +78,13 @@ int main (int argc, char * argv[]){
         //Bucle principal
         double gConst = 6.674 * (1/pow(10,11));
         for (int iteration = 0; iteration < num_iterations; iteration++){
-                        cout << "posicion  "<< objects[0].px << " " << objects[0].py <<" "<< objects[0].pz << "\n";
-                        cout << "velocidad  "<< objects[0].vx << " " << objects[0].vy <<" "<< objects[0].vz << "\n";
-
-
                 //Comprobacion de colisiones
                 for (int i = 0; i < num_objects-1; i++){
                         if (objects[i].exists == true) {
                                 for (int j = i+1; j< num_objects; j++){
                                         if (objects[j].exists == true){
-                                                if (objects[i].px == objects[j].px and objects[i].py == objects[j].py and objects[i].pz and objects[j].pz){
-                                                        cout << "El objeto: " << i << " se fusiona con el objeto: " << j;
+                                                if (objects[i].px == objects[j].px && objects[i].py && objects[j].py && objects[i].pz && objects[j].pz){
+                                                        cout << "El objeto: " << i << " se fusiona con el objeto: " << j << endl;
                                                         objects[i].mass = objects[i].mass + objects[j].mass;
                                                         objects[i].vx = objects[i].vx + objects[j].vx;
                                                         objects[i].vy = objects[i].vy + objects[j].vy;
@@ -106,9 +102,9 @@ int main (int argc, char * argv[]){
                                 for (int j = 0; j < num_objects; j++){
                                         if (objects[j].exists == true & i != j){                                              
                                                 double x = 0, y = 0, z = 0;  
-                                                x = objects[i].px - objects[j].px;
-                                                y = objects[i].py - objects[j].py;
-                                                z = objects[i].pz - objects[j].pz;
+                                                x = objects[j].px - objects[i].px;
+                                                y = objects[j].py - objects[i].py;
+                                                z = objects[j].pz - objects[i].pz;
                                                 double botPart = pow(sqrt(pow(x,2) + pow(y,2) + pow(z,2)),3);  
                                                 xforce += (gConst * objects[i].mass * objects[j].mass * x)/botPart;
                                                 yforce += (gConst * objects[i].mass * objects[j].mass * y)/botPart;
@@ -133,31 +129,32 @@ int main (int argc, char * argv[]){
                         objects[i].py += objects[i].vy * time_step;
                         objects[i].pz += objects[i].vz * time_step;
                         if(objects[i].px <= 0){
-                                objects[i].px = 0;
+                                objects[i].px = 1;
                                 objects[i].vx = objects[i].vx * -1;
                         }
-                        if(objects[i].px >= size_enclosure){
+                        else if(objects[i].px >= size_enclosure){
                                 objects[i].px = size_enclosure;
                                 objects[i].vx = objects[i].vx * -1;
                         }
                         if(objects[i].py <= 0){
-                                objects[i].py = 0;
+                                objects[i].py = 1;
                                 objects[i].vy = objects[i].vy * -1;
                         }
-                        if(objects[i].py >= size_enclosure){
+                        else if(objects[i].py >= size_enclosure){
                                 objects[i].py = size_enclosure;
                                 objects[i].vy = objects[i].vy * -1;
                         }
                         if(objects[i].pz <= 0){
-                                objects[i].pz = 0;
+                                objects[i].pz = 1;
                                 objects[i].vz = objects[i].vz * -1;
                         }
-                        if(objects[i].pz >= size_enclosure){
+                        else if(objects[i].pz >= size_enclosure){
                                 objects[i].pz = size_enclosure;
                                 objects[i].vz = objects[i].vz * -1;
                         }
                 }
-        }             
+        }
+        generateDocuments("./final_config.txt", objects, size_enclosure, time_step, num_objects);             
         return 0;
 };
 
