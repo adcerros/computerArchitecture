@@ -1,2001 +1,2001 @@
 1e+06 0.1 2000
-777740 677374 738637 0 0 0 1e+21
-138290 246036 954968 0 0 0 1e+21
-601231 242080 685415 0 0 0 9.99999e+20
-322990 407471 445273 0 0 0 1e+21
-270781 946986 359617 0 0 0 1e+21
-464519 192028 917635 0 0 0 1e+21
-126794 427496 865862 0 0 0 3e+21
-321858 589348 612134 0 0 0 1e+21
-481476 590592 528168 0 0 0 1e+21
-849463 602498 760788 0 0 0 1e+21
-491139 553786 513513 0 0 0 1e+21
-1e+06 938372 1e+06 0 0 0 4e+23
+nan nan nan 0 0 0 2.77e+23
+The object 1 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 6 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 12 has merged
-669105 528751 100361 0 0 0 3e+21
-631635 860579 812967 0 0 0 1e+21
-529339 301879 892996 0 0 0 1e+21
-459597 523716 529617 0 0 0 2e+21
-564767 456202 566674 0 0 0 1e+21
-106289 328381 83497.7 0 0 0 9.99999e+20
-The object 19 has merged
-34716.2 528600 99651.9 0 0 0 1e+21
-206275 170308 819957 0 0 0 1e+21
-438014 700833 863440 0 0 0 1e+21
-434136 535330 525354 0 0 0 1e+21
-656451 936061 750150 0 0 0 9.99999e+20
-454880 543765 517649 0 0 0 1e+21
-343875 495517 572071 0 0 0 1e+21
-471093 581185 503662 0 0 0 1e+21
-497503 503371 475477 0 0 0 2e+21
-The object 29 has merged
-944069 429572 97603.1 0 0 0 1e+21
-620944 93541.7 339756 0 0 0 2e+21
-455154 543759 486125 0 0 0 1e+21
-469085 514618 520813 0 0 0 1e+21
-413851 556271 528856 0 0 0 1e+21
-The object 35 has merged
-364706 391198 451136 0 0 0 1e+21
-The object 37 has merged
-481052 512277 479994 0 0 0 1e+21
-479225 547781 475289 0 0 0 1e+21
-228958 135562 508762 0 0 0 1e+21
-546284 449347 350140 0 0 0 1e+21
-420784 510046 549168 0 0 0 1e+21
-The object 43 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 20 has merged
+nan nan nan 0 0 0 3.09e+23
+The object 22 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+The object 30 has merged
+The object 31 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 36 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 44 has merged
-393981 453935 489378 0 0 0 1e+21
-999142 411305 664064 0 0 0 1e+21
+The object 45 has merged
+The object 46 has merged
 The object 47 has merged
-490986 524894 563057 0 0 0 1e+21
-931208 972200 364818 0 0 0 9.99999e+20
-506083 498529 466669 0 0 0 1e+21
-434764 474651 514703 0 0 0 9.99999e+20
-268658 799699 75681.3 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 52 has merged
 The object 53 has merged
-653415 499543 655744 0 0 0 1e+21
-231332 737276 102709 0 0 0 1e+21
-522812 600024 486590 0 0 0 9.99999e+20
-469971 635263 496613 0 0 0 1e+21
-320900 986392 613633 0 0 0 4e+21
-693754 125021 677242 0 0 0 2e+21
-422514 548908 508736 0 0 0 1e+21
-The object 61 has merged
-111157 70750.5 327404 0 0 0 1e+21
-428651 531196 464097 0 0 0 1e+21
-458716 524078 470511 0 0 0 2e+21
-254879 678991 460119 0 0 0 4e+21
-131894 64934.6 130204 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 55 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99997e+20
+The object 65 has merged
+nan nan nan 0 0 0 1e+21
 The object 67 has merged
-941780 13315.2 51845.7 0 0 0 1e+21
-The object 69 has merged
-714410 271487 503759 0 0 0 1e+21
-538345 470183 505851 0 0 0 1e+21
-698731 484719 4147.59 0 0 0 2e+21
-337064 648636 23914.1 0 0 0 1e+21
-902234 966041 926381 0 0 0 1e+21
-554933 132135 447594 0 0 0 1e+21
-525725 80455.2 69261 0 0 0 9.99999e+20
-316379 737041 278876 0 0 0 1e+21
-The object 78 has merged
-582178 343103 766853 0 0 0 9.99997e+20
-411936 635691 540628 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 73 has merged
+The object 74 has merged
+The object 75 has merged
+The object 76 has merged
+The object 77 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99997e+20
+nan nan nan 0 0 0 1e+21
 The object 81 has merged
-455842 506675 559801 0 0 0 1e+21
-188750 686865 312688 0 0 0 9.99999e+20
-776007 419222 698761 0 0 0 1e+21
-511488 356081 528420 0 0 0 9.99999e+20
-548444 645524 359586 0 0 0 3e+21
-437686 454037 462789 0 0 0 1e+21
-66621.1 404173 837147 0 0 0 9.99999e+20
-613889 156180 211551 0 0 0 1e+21
-400907 548223 580485 0 0 0 9.99999e+20
-430162 566820 459677 0 0 0 1e+21
-565959 467514 448494 0 0 0 9.99999e+20
-437242 841308 455470 0 0 0 2e+21
-475518 548396 464191 0 0 0 2e+21
-914062 30327 430808 0 0 0 9.99999e+20
-277530 493420 494546 0 0 0 1e+21
-496854 519591 494911 0 0 0 2e+21
-429930 738859 607584 0 0 0 1e+21
-477523 651462 416611 0 0 0 2e+21
-601106 612846 137014 0 0 0 1e+21
-412634 543974 480726 0 0 0 1e+21
-551731 383552 400495 0 0 0 1e+21
-The object 103 has merged
-418629 723946 665999 0 0 0 4e+21
-The object 105 has merged
-450216 657811 497410 0 0 0 9.99998e+20
-152753 893703 978373 0 0 0 2e+21
-414975 459057 385758 0 0 0 9.99999e+20
-The object 109 has merged
-493111 219430 66618.1 0 0 0 2e+21
-507865 458552 479263 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 85 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 89 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 91 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 93 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 95 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 98 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 101 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 104 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 112 has merged
-532175 418194 419370 0 0 0 2e+21
-The object 114 has merged
-538624 581887 630051 0 0 0 1e+21
-627650 164302 221804 0 0 0 1e+21
-493775 533497 521289 0 0 0 9.99999e+20
-The object 118 has merged
-411622 555449 676636 0 0 0 1e+21
-466716 511224 397135 0 0 0 1e+21
-532573 552557 488040 0 0 0 1e+21
-129568 897345 638258 0 0 0 9.99999e+20
-449187 560075 478421 0 0 0 1e+21
-228183 809551 841471 0 0 0 1e+21
-377881 554569 394568 0 0 0 2e+21
-856192 432166 414185 0 0 0 1e+21
-The object 127 has merged
-373128 507392 485559 0 0 0 1e+21
-469873 552920 556006 0 0 0 1e+21
-518694 495890 479547 0 0 0 1e+21
-501302 545104 548208 0 0 0 1e+21
-813215 333234 410884 0 0 0 1e+21
-513159 623193 509696 0 0 0 1e+21
-942418 895056 663309 0 0 0 1e+21
-509477 482780 523926 0 0 0 1e+21
-586555 537803 593268 0 0 0 9.99999e+20
+nan nan nan 0 0 0 2e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 124 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 129 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
 The object 137 has merged
-482159 403691 866798 0 0 0 1e+21
-428693 508274 505001 0 0 0 2e+21
-572583 538736 387804 0 0 0 1e+21
-330982 719660 706319 0 0 0 2e+21
-419020 438101 490148 0 0 0 9.99999e+20
-284417 566417 303550 0 0 0 2e+21
-277458 353263 618969 0 0 0 9.99999e+20
-466859 504079 479910 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 142 has merged
+The object 143 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 145 has merged
 The object 146 has merged
-778164 933921 641330 0 0 0 1e+21
-740273 969291 187802 0 0 0 1e+21
-436640 418176 440579 0 0 0 9.99997e+20
-371675 713405 488456 0 0 0 1e+21
-The object 151 has merged
-888924 528671 248529 0 0 0 1e+21
-496434 525298 545262 0 0 0 1e+21
-287317 397189 652121 0 0 0 2e+21
-414865 546620 500226 0 0 0 9.99999e+20
-787374 868900 731958 0 0 0 1e+21
-370591 541782 561075 0 0 0 1e+21
-646673 978994 424531 0 0 0 2e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 149 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 158 has merged
 The object 159 has merged
-339170 694503 638024 0 0 0 9.99998e+20
-521441 527738 478276 0 0 0 1e+21
-589248 81710.3 429578 0 0 0 1e+21
-277230 60944.2 258373 0 0 0 1e+21
-353570 794216 281103 0 0 0 1e+21
-950255 417953 115959 0 0 0 1e+21
-397082 414169 500308 0 0 0 9.99999e+20
-330457 467070 452865 0 0 0 9.99999e+20
-763549 397191 784405 0 0 0 2e+21
-186203 897554 847707 0 0 0 1e+21
+The object 160 has merged
+The object 161 has merged
+The object 162 has merged
+The object 163 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+The object 168 has merged
+nan nan nan 0 0 0 1e+21
 The object 170 has merged
-675188 653430 853609 0 0 0 3e+21
-527464 412999 411478 0 0 0 1e+21
-458412 828119 613619 0 0 0 1e+21
-345307 347398 600566 0 0 0 3e+21
-The object 175 has merged
-152691 695595 431662 0 0 0 1e+21
-798915 850157 651364 0 0 0 3e+21
-332349 511083 353849 0 0 0 1e+21
-468105 224496 479102 0 0 0 2e+21
-446944 167663 402033 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 173 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 176 has merged
+The object 177 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
 The object 181 has merged
-514599 667394 721787 0 0 0 1e+21
-518401 785599 548995 0 0 0 1e+21
-627715 536128 125647 0 0 0 1e+21
-471589 509930 585316 0 0 0 1e+21
-457142 520773 504310 0 0 0 1e+21
-541625 470256 576707 0 0 0 1e+21
-189509 90553.6 989404 0 0 0 1e+21
-78676.5 980054 14284.6 0 0 0 1e+21
-76119.6 678540 644164 0 0 0 1e+21
-84332.6 87679.5 82823.1 0 0 0 1e+21
-597023 656787 558632 0 0 0 1e+21
-110540 156502 151293 0 0 0 1e+21
-The object 194 has merged
-536974 466328 504665 0 0 0 1e+21
-151731 350282 17457.7 0 0 0 9.99998e+20
-The object 197 has merged
-387617 147329 207148 0 0 0 9.99999e+20
-350442 925414 535094 0 0 0 2e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 189 has merged
+nan nan nan 0 0 0 1e+21
+The object 191 has merged
+The object 192 has merged
+The object 193 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 196 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 198 has merged
+nan nan nan 0 0 0 9.99999e+20
 The object 200 has merged
-760735 674432 383328 0 0 0 1e+21
-934642 46923.6 847660 0 0 0 1e+21
-447612 497901 428881 0 0 0 9.99998e+20
-426614 640732 442400 0 0 0 1e+21
-453241 547264 457111 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 202 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 206 has merged
-822973 915847 694055 0 0 0 1e+21
-909499 82084.2 590655 0 0 0 9.99999e+20
-461396 233914 203889 0 0 0 1e+21
-470792 577810 537634 0 0 0 1e+21
-The object 211 has merged
-397655 575800 423012 0 0 0 1e+21
-279116 568132 324414 0 0 0 1e+21
-369712 623870 602714 0 0 0 1e+21
-198429 249574 794896 0 0 0 9.99999e+20
-515224 479000 440142 0 0 0 1e+21
-664003 421183 916834 0 0 0 1e+21
-267413 514334 423578 0 0 0 9.99999e+20
-463407 393150 502155 0 0 0 1e+21
-369217 298519 790065 0 0 0 9.99999e+20
-135564 457539 794658 0 0 0 1e+21
-588527 134882 107658 0 0 0 9.99999e+20
-The object 223 has merged
-The object 224 has merged
-699096 645018 627017 0 0 0 2e+21
-The object 226 has merged
-945391 448884 842798 0 0 0 2e+21
-The object 228 has merged
-The object 229 has merged
-663332 52662.3 753500 0 0 0 3e+21
-704275 522688 767529 0 0 0 1e+21
-254418 544975 725321 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 208 has merged
+The object 209 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 212 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 215 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 233 has merged
-The object 234 has merged
-906354 984591 653525 0 0 0 2e+21
-429817 309449 472717 0 0 0 9.99999e+20
-171082 838867 796529 0 0 0 9.99999e+20
-426524 577682 485542 0 0 0 1e+21
-The object 239 has merged
-477518 559558 479809 0 0 0 1e+21
-72077.5 620799 555072 0 0 0 9.99999e+20
-412134 526524 30680.4 0 0 0 2e+21
-155999 357519 937616 0 0 0 1e+21
-913154 128652 924646 0 0 0 9.99999e+20
-478018 594138 503756 0 0 0 1e+21
-702164 891741 53260.8 0 0 0 2e+21
-544991 532903 516706 0 0 0 1e+21
-The object 248 has merged
-353716 607340 495887 0 0 0 2e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 236 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 238 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
 The object 250 has merged
-227543 335984 202525 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 252 has merged
-502450 468720 495475 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 254 has merged
-196212 91062.2 205781 0 0 0 1e+21
-444214 541331 462502 0 0 0 1e+21
-880386 246399 550799 0 0 0 9.99999e+20
-957180 872127 749659 0 0 0 9.99999e+20
-The object 259 has merged
-567967 112820 359505 0 0 0 1e+21
-110926 902336 630310 0 0 0 1e+21
-306354 655687 597843 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 263 has merged
-326519 496225 426637 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 265 has merged
-The object 266 has merged
-254889 543738 129669 0 0 0 1e+21
-72410.7 134467 817810 0 0 0 1e+21
-270634 875473 840064 0 0 0 1e+21
-500849 478354 491441 0 0 0 9.99998e+20
-500575 552663 483082 0 0 0 1e+21
-478113 526966 511043 0 0 0 2e+21
-228284 124981 484756 0 0 0 1e+21
-521317 650452 453300 0 0 0 1e+21
-548257 658778 440517 0 0 0 1e+21
-200015 708846 505529 0 0 0 1e+21
-486763 453409 512640 0 0 0 9.99999e+20
-The object 278 has merged
-857727 614941 449716 0 0 0 2e+21
-The object 280 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 268 has merged
+The object 269 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 281 has merged
-516534 523946 584445 0 0 0 1e+21
-469106 405924 387366 0 0 0 1e+21
-721055 780280 437374 0 0 0 9.99999e+20
-450129 322242 113720 0 0 0 9.99999e+20
-The object 286 has merged
-532338 600775 657149 0 0 0 9.99999e+20
-72278 882785 965959 0 0 0 1e+21
-427319 568240 511981 0 0 0 1e+21
-894347 45358.1 605393 0 0 0 1e+21
-557806 141566 130248 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 283 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 292 has merged
-520495 115592 762519 0 0 0 1e+21
-350244 534443 604074 0 0 0 1e+21
-608660 999037 593616 0 0 0 9.99998e+20
-922487 682429 325260 0 0 0 1e+21
-503525 517045 471481 0 0 0 1e+21
-471450 451861 420891 0 0 0 1e+21
-499199 465945 558663 0 0 0 2e+21
-627555 580634 486404 0 0 0 1e+21
-The object 301 has merged
-489749 468326 470595 0 0 0 9.99999e+20
-325817 480179 507346 0 0 0 1e+21
+The object 293 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 304 has merged
-460681 476306 492536 0 0 0 1e+21
-9426.81 16114.3 258767 0 0 0 1e+21
-457503 433925 358021 0 0 0 9.99999e+20
-The object 308 has merged
-588684 973095 982078 0 0 0 2e+21
-963504 575178 966690 0 0 0 1e+21
-737845 609742 856576 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 306 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 309 has merged
+The object 310 has merged
+nan nan nan 0 0 0 9.99999e+20
 The object 312 has merged
-932133 817637 847590 0 0 0 3e+21
-497844 439711 435362 0 0 0 1e+21
-537282 423950 463091 0 0 0 1e+21
-452306 551080 523146 0 0 0 1e+21
-677775 562387 68362.8 0 0 0 1e+21
-The object 318 has merged
-484760 614597 665457 0 0 0 1e+21
+The object 313 has merged
+The object 314 has merged
+nan nan nan 0 0 0 1e+21
+The object 316 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 319 has merged
 The object 320 has merged
 The object 321 has merged
-497570 502870 520861 0 0 0 9.99999e+20
-688958 983139 960752 0 0 0 1e+21
-The object 324 has merged
-The object 325 has merged
-446805 583825 384948 0 0 0 9.99998e+20
-827618 187360 69909.9 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+The object 326 has merged
+The object 327 has merged
 The object 328 has merged
-The object 329 has merged
-526970 438177 400267 0 0 0 1e+21
-The object 331 has merged
-The object 332 has merged
-368499 30919.1 579257 0 0 0 1e+21
-501319 618473 512847 0 0 0 1e+21
-The object 335 has merged
-847202 342418 911565 0 0 0 1e+21
-623847 254911 316978 0 0 0 1e+21
-401168 519409 426496 0 0 0 1e+21
-The object 339 has merged
-The object 340 has merged
-532967 514441 492646 0 0 0 1e+21
-265060 709754 92668.4 0 0 0 1e+21
-347343 516001 547539 0 0 0 9.99999e+20
-563256 402771 617813 0 0 0 1e+21
-456529 558526 505301 0 0 0 1e+21
-45143.3 495541 434655 0 0 0 1e+21
-397843 517938 454272 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 330 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 336 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 342 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 347 has merged
 The object 348 has merged
-605513 302931 599238 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 350 has merged
 The object 351 has merged
-874848 348897 168759 0 0 0 1e+21
-345102 527023 486688 0 0 0 1e+21
-530281 573980 508483 0 0 0 9.99999e+20
-619586 509134 411761 0 0 0 1e+21
-342360 733207 634745 0 0 0 9.99999e+20
-953037 493518 133153 0 0 0 9.99998e+20
-857344 422608 459293 0 0 0 9.99999e+20
-400485 35789.4 640495 0 0 0 1e+21
-547832 520430 540265 0 0 0 1e+21
-460979 519802 535045 0 0 0 2e+21
-156190 593747 639860 0 0 0 1e+21
-The object 363 has merged
-567782 446146 532952 0 0 0 9.99998e+20
+The object 352 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 357 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 360 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 364 has merged
 The object 365 has merged
-865509 645421 932281 0 0 0 1e+21
-765421 917576 665344 0 0 0 1e+21
-20358.4 421296 730389 0 0 0 3e+21
-479703 457189 497434 0 0 0 1e+21
-395812 59460.3 215457 0 0 0 1e+21
-784094 56545.9 434649 0 0 0 1e+21
-The object 372 has merged
-606222 912978 943968 0 0 0 1e+21
-The object 374 has merged
-195358 428268 693922 0 0 0 9.99998e+20
-567420 198600 764151 0 0 0 9.99999e+20
-463643 472237 524237 0 0 0 1e+21
-572598 417439 480174 0 0 0 1e+21
-954310 181739 65101.2 0 0 0 1e+21
-The object 380 has merged
-943905 6788.7 577341 0 0 0 9.99999e+20
-429455 483073 498340 0 0 0 9.99999e+20
-654870 293633 400753 0 0 0 1e+21
-645110 395094 527465 0 0 0 1e+21
-520467 352564 549734 0 0 0 9.99999e+20
-490357 369027 341084 0 0 0 9.99999e+20
-442337 640853 879124 0 0 0 1e+21
-599702 515378 461543 0 0 0 9.99999e+20
-419127 388673 528335 0 0 0 9.99999e+20
-580874 504060 564776 0 0 0 1e+21
-535850 160268 359949 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 367 has merged
+The object 368 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 371 has merged
+nan nan nan 0 0 0 1e+21
+The object 373 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99999e+20
+The object 377 has merged
+nan nan nan 0 0 0 1e+21
+The object 379 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 384 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 389 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 392 has merged
-692676 360092 569531 0 0 0 9.99999e+20
-341747 602402 516566 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 395 has merged
 The object 396 has merged
-The object 397 has merged
-423484 893889 569832 0 0 0 9.99998e+20
-134779 575100 443526 0 0 0 1e+21
-596258 512499 527972 0 0 0 2e+21
-320756 481436 587699 0 0 0 1e+21
-The object 402 has merged
-The object 403 has merged
-The object 404 has merged
-329910 524361 405644 0 0 0 1e+21
-866942 989298 796980 0 0 0 9.99999e+20
-986160 219392 321245 0 0 0 9.99999e+20
-811350 324315 704013 0 0 0 1e+21
-487099 575211 486473 0 0 0 1e+21
-374581 540082 316173 0 0 0 1e+21
-973160 663454 61312.5 0 0 0 1e+21
-485173 477562 599128 0 0 0 2e+21
-379572 426853 799875 0 0 0 1e+21
-618935 888788 857770 0 0 0 1e+21
-The object 415 has merged
-The object 416 has merged
-The object 417 has merged
-993497 976036 296298 0 0 0 9.99999e+20
-183934 410207 576975 0 0 0 1e+21
-The object 420 has merged
-385853 430200 484749 0 0 0 1e+21
-The object 422 has merged
-513378 504718 532923 0 0 0 1e+21
-15075.1 305777 258367 0 0 0 3e+21
-456530 538537 204625 0 0 0 1e+21
-The object 426 has merged
-The object 427 has merged
-369904 739634 639628 0 0 0 9.99999e+20
-470064 521357 491352 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 398 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 406 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 411 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 418 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 423 has merged
+The object 424 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 430 has merged
 The object 431 has merged
-491915 573460 685702 0 0 0 1e+21
-913487 790263 519700 0 0 0 1e+21
-489186 459459 449970 0 0 0 9.99998e+20
-492444 650982 509442 0 0 0 2e+21
-456792 525928 483675 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+The object 436 has merged
 The object 437 has merged
-577025 386584 704193 0 0 0 1e+21
-122049 601881 215518 0 0 0 1e+21
-287455 484838 560351 0 0 0 9.99999e+20
-382828 602904 658208 0 0 0 9.99998e+20
-The object 442 has merged
-581313 622532 601411 0 0 0 1e+21
-The object 444 has merged
+The object 438 has merged
+The object 439 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
 The object 445 has merged
-925213 488449 267840 0 0 0 2e+21
-394576 872069 823048 0 0 0 2e+21
-492912 579903 597407 0 0 0 1e+21
-852404 608276 625139 0 0 0 1e+21
-74893.6 177629 411012 0 0 0 1e+21
-670534 858214 452668 0 0 0 1e+21
-583345 671533 645421 0 0 0 1e+21
-464573 525506 443852 0 0 0 1e+21
-507289 323354 331197 0 0 0 9.99999e+20
-596603 472677 359438 0 0 0 1e+21
-The object 456 has merged
-511814 640229 367938 0 0 0 1e+21
-404351 477162 442029 0 0 0 1e+21
-The object 459 has merged
-455752 489125 485019 0 0 0 1e+21
-591417 381486 637258 0 0 0 1e+21
-461587 434917 515764 0 0 0 9.99999e+20
-380736 420813 453220 0 0 0 2e+21
-428932 607666 391320 0 0 0 9.99999e+20
-The object 465 has merged
-The object 466 has merged
-648682 460099 430059 0 0 0 1e+21
-The object 468 has merged
-210404 637566 588252 0 0 0 2e+21
+The object 446 has merged
+The object 447 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 452 has merged
+nan nan nan 0 0 0 1e+21
+The object 454 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 460 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 467 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
 The object 470 has merged
-466518 515573 514430 0 0 0 2e+21
-498184 453164 585450 0 0 0 9.99998e+20
-95153.2 265742 59415.5 0 0 0 1e+21
+The object 471 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
 The object 474 has merged
-The object 475 has merged
-627335 375103 485952 0 0 0 1e+21
-558734 409832 399604 0 0 0 9.99999e+20
-The object 478 has merged
-581757 468513 518800 0 0 0 9.99999e+20
-630095 182177 885400 0 0 0 1e+21
-434175 841192 311610 0 0 0 1e+21
-503838 458398 347710 0 0 0 9.99999e+20
-884090 327588 836056 0 0 0 1e+21
-The object 484 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 479 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
 The object 485 has merged
-565281 301473 854552 0 0 0 1e+21
-The object 487 has merged
-906789 889092 995934 0 0 0 3e+21
-626187 395347 380684 0 0 0 9.99999e+20
-644152 385312 636364 0 0 0 2e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 488 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 491 has merged
-457661 474190 470590 0 0 0 1e+21
-427864 554947 524667 0 0 0 9.99998e+20
-708227 542534 471082 0 0 0 1e+21
-416533 476062 558025 0 0 0 9.99999e+20
-426321 555043 478235 0 0 0 1e+21
-166788 198152 533837 0 0 0 1e+21
-578426 665450 538994 0 0 0 1e+21
-The object 499 has merged
-The object 500 has merged
-26498.9 942214 493644 0 0 0 1e+21
-369648 504034 546974 0 0 0 9.99999e+20
-454834 514709 477987 0 0 0 1e+21
-517993 533055 519037 0 0 0 9.99999e+20
-223580 117517 150816 0 0 0 1e+21
-552331 429637 519844 0 0 0 1e+21
-622157 196592 348255 0 0 0 9.99999e+20
-414250 866069 962325 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 493 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 497 has merged
+The object 498 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 505 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 508 has merged
 The object 509 has merged
-463697 115488 90011.8 0 0 0 3e+21
-188249 581788 419300 0 0 0 9.99999e+20
-The object 512 has merged
-178266 292716 932215 0 0 0 9.99999e+20
-818325 223052 168855 0 0 0 2e+21
-The object 515 has merged
-493851 461364 545309 0 0 0 1e+21
-The object 517 has merged
-The object 518 has merged
-The object 519 has merged
-352188 489281 451578 0 0 0 9.99999e+20
-348763 648538 961621 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 522 has merged
-The object 523 has merged
-420590 570965 571127 0 0 0 9.99999e+20
-The object 525 has merged
-484306 570117 499638 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 527 has merged
-395416 459027 487406 0 0 0 9.99999e+20
-419146 512219 472235 0 0 0 1e+21
-331237 577866 566035 0 0 0 1e+21
-376593 68542.2 266558 0 0 0 1e+21
-908909 352239 200057 0 0 0 1e+21
-482968 38495.2 43127.2 0 0 0 2e+21
-256949 25172.5 644443 0 0 0 1e+21
-845451 812124 839099 0 0 0 1e+21
-474161 530404 519129 0 0 0 1e+21
-738860 390442 876245 0 0 0 2e+21
-617498 133651 561214 0 0 0 1e+21
-305373 492651 459956 0 0 0 1e+21
-370394 490013 563067 0 0 0 1e+21
-413878 391315 417283 0 0 0 1e+21
-561514 852051 594103 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 537 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 542 has merged
 The object 543 has merged
-448292 508102 527862 0 0 0 1e+21
-The object 545 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
 The object 546 has merged
-868710 353199 196497 0 0 0 1e+21
-The object 548 has merged
-581486 444940 428336 0 0 0 1e+21
-782806 494439 138164 0 0 0 1e+21
-468285 578812 517908 0 0 0 1e+21
-609855 506554 583891 0 0 0 9.99999e+20
-The object 553 has merged
-492236 540306 481007 0 0 0 1e+21
-430616 531346 526464 0 0 0 1e+21
-803095 871930 128558 0 0 0 2e+21
-793212 665587 86914.2 0 0 0 1e+21
-453145 496304 468658 0 0 0 9.99998e+20
-417152 340712 515415 0 0 0 2e+21
-The object 560 has merged
-492328 516113 484440 0 0 0 1e+21
-318006 438773 535426 0 0 0 1e+21
-500831 462250 457099 0 0 0 1e+21
-475343 511087 516469 0 0 0 1e+21
-732122 811944 409376 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 556 has merged
+The object 557 has merged
+nan nan nan 0 0 0 9.99998e+20
+The object 559 has merged
+nan nan nan 0 0 0 1e+21
+The object 561 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 565 has merged
 The object 566 has merged
-517397 42470.8 80949.4 0 0 0 1e+21
-129124 87471.5 599928 0 0 0 9.99999e+20
-356001 576928 297547 0 0 0 9.99999e+20
-478897 60649.7 580597 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 568 has merged
+The object 569 has merged
+nan nan nan 0 0 0 1e+21
 The object 571 has merged
-The object 572 has merged
-575631 375409 519382 0 0 0 1e+21
-254336 510828 510686 0 0 0 2e+21
+nan nan nan 0 0 0 1e+21
+The object 573 has merged
+nan nan nan 0 0 0 9.99999e+20
 The object 575 has merged
-473964 461488 497540 0 0 0 1e+21
-623484 542021 533107 0 0 0 9.99999e+20
-The object 578 has merged
-343023 453978 431659 0 0 0 1e+21
-497851 761521 359087 0 0 0 2e+21
-465120 490116 483620 0 0 0 9.99999e+20
-The object 582 has merged
-477875 656734 723475 0 0 0 1e+21
-586988 380947 372156 0 0 0 9.99999e+20
-543764 509580 500647 0 0 0 1e+21
-The object 586 has merged
-178510 29786.9 148775 0 0 0 3e+21
-858452 181545 371492 0 0 0 9.99999e+20
-846985 995044 867972 0 0 0 1e+21
-968506 847419 845510 0 0 0 1e+21
-87615.6 74614.6 811916 0 0 0 1e+21
-420907 566187 464754 0 0 0 1e+21
-552461 454607 581415 0 0 0 9.99999e+20
-471138 473404 472403 0 0 0 1e+21
-710122 831098 388297 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 589 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 594 has merged
+nan nan nan 0 0 0 1e+21
 The object 596 has merged
-295089 320885 235727 0 0 0 1e+21
-518600 562738 491174 0 0 0 1e+21
-562042 613879 552327 0 0 0 1e+21
-814622 750888 114153 0 0 0 2e+21
-324835 538459 581798 0 0 0 1e+21
-412295 400041 244523 0 0 0 1e+21
-82559.3 99778.1 977220 0 0 0 1e+21
-113357 319196 779330 0 0 0 1e+21
-The object 605 has merged
-542537 498613 483807 0 0 0 1e+21
-The object 607 has merged
-533388 916331 561838 0 0 0 1e+21
-The object 609 has merged
-The object 610 has merged
-The object 611 has merged
-67473.1 302241 570317 0 0 0 1e+21
-The object 613 has merged
-421171 591417 496084 0 0 0 1e+21
-The object 615 has merged
-553670 535535 564402 0 0 0 9.99999e+20
-681994 706082 100812 0 0 0 3e+21
-539355 386396 632749 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 599 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 603 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 608 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 612 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
 The object 619 has merged
-520731 402825 482304 0 0 0 1e+21
-586676 996407 3523.89 0 0 0 1e+21
-490726 388478 398942 0 0 0 1e+21
-417505 660111 495951 0 0 0 2e+21
-390399 883254 355225 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 622 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 625 has merged
-409815 505019 493057 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 627 has merged
-433526 94327.3 935183 0 0 0 9.99999e+20
+The object 628 has merged
 The object 629 has merged
-The object 630 has merged
-452623 536914 540320 0 0 0 1e+21
-543988 487058 589344 0 0 0 1e+21
-383751 576543 484359 0 0 0 1e+21
-487037 359284 527593 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 635 has merged
-776740 752836 473349 0 0 0 1e+21
-The object 637 has merged
-262749 607647 376140 0 0 0 1e+21
-44916.1 616933 897624 0 0 0 1e+21
-78759.8 470182 980630 0 0 0 1e+21
-417310 501727 507073 0 0 0 2e+21
-452361 552722 495697 0 0 0 9.99999e+20
+The object 636 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 639 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 643 has merged
-The object 644 has merged
-514225 487205 492732 0 0 0 1e+21
-531906 517991 497509 0 0 0 1e+21
-983732 284169 259632 0 0 0 1e+21
-575882 519482 512917 0 0 0 9.99999e+20
-725675 461184 47645.3 0 0 0 2e+21
-369934 685505 715789 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 647 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 649 has merged
+The object 650 has merged
 The object 651 has merged
 The object 652 has merged
-74424.8 369578 302905 0 0 0 1e+21
-526568 512908 528393 0 0 0 9.99998e+20
-The object 655 has merged
-The object 656 has merged
-357767 815144 491622 0 0 0 1e+21
-The object 658 has merged
-537146 423673 414717 0 0 0 2e+21
-425831 437657 428235 0 0 0 1e+21
-328222 309116 985365 0 0 0 9.99999e+20
-931371 990996 512222 0 0 0 1e+21
-628485 237428 166486 0 0 0 2e+21
-443658 485156 486081 0 0 0 9.99999e+20
-336982 335366 597388 0 0 0 9.99999e+20
-The object 666 has merged
-509920 449638 607459 0 0 0 9.99999e+20
-660054 196092 612079 0 0 0 1e+21
-247571 561075 624299 0 0 0 1e+21
-440503 119155 536237 0 0 0 1e+21
-The object 671 has merged
-991428 13493.7 470557 0 0 0 9.99999e+20
-356041 777349 423820 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 657 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 660 has merged
+The object 661 has merged
+The object 662 has merged
+The object 663 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+The object 667 has merged
+nan nan nan 0 0 0 1e+21
+The object 669 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 672 has merged
+nan nan nan 0 0 0 9.99998e+20
 The object 674 has merged
-487096 433111 830713 0 0 0 1e+21
-The object 676 has merged
-967317 121706 334365 0 0 0 1e+21
-450728 470545 441052 0 0 0 9.99999e+20
-30538.2 859538 796580 0 0 0 1e+21
-246986 524996 563917 0 0 0 9.99999e+20
-461229 631114 448834 0 0 0 9.99998e+20
-198082 242906 721501 0 0 0 3e+21
-56364.5 129669 715396 0 0 0 3e+21
-331390 468005 560298 0 0 0 1e+21
-417161 575302 447673 0 0 0 1e+21
-120937 476753 263986 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 679 has merged
+The object 680 has merged
+The object 681 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 686 has merged
 The object 687 has merged
-497755 532970 470556 0 0 0 1e+21
-381168 504554 521572 0 0 0 1e+21
-968222 679423 784930 0 0 0 1e+21
-The object 691 has merged
-482960 496242 464509 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 693 has merged
-461487 507637 475161 0 0 0 1e+21
-494042 508425 436290 0 0 0 1e+21
-521168 505264 868732 0 0 0 1e+21
-The object 697 has merged
-446039 579408 385234 0 0 0 1e+21
-410677 475520 369045 0 0 0 1e+21
-705984 440533 587389 0 0 0 1e+21
-585207 566865 407168 0 0 0 1e+21
-The object 702 has merged
-674789 695201 737888 0 0 0 1e+21
-230013 745293 749926 0 0 0 1e+21
-581672 198058 53647.3 0 0 0 2e+21
-168175 459379 876382 0 0 0 1e+21
-409021 424474 534832 0 0 0 1e+21
-626236 422432 305277 0 0 0 1e+21
-The object 709 has merged
-461424 481532 541560 0 0 0 1e+21
-400243 556544 463854 0 0 0 1e+21
-488925 357488 556634 0 0 0 1e+21
-310570 776877 489099 0 0 0 1e+21
-659606 417644 565942 0 0 0 1e+21
-637088 54774.2 857135 0 0 0 9.99999e+20
-661810 324713 157512 0 0 0 9.99998e+20
-507634 402323 428576 0 0 0 9.99999e+20
-165294 161142 979308 0 0 0 1e+21
-421224 247407 647149 0 0 0 1e+21
-971419 373781 262078 0 0 0 9.99999e+20
-The object 721 has merged
-678281 172192 300949 0 0 0 1e+21
-346680 432999 418165 0 0 0 1e+21
-603944 216944 204513 0 0 0 1e+21
-70969.7 852722 486767 0 0 0 1e+21
-The object 726 has merged
-The object 727 has merged
-The object 728 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 698 has merged
+The object 699 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 706 has merged
+nan nan nan 0 0 0 1e+21
+The object 708 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 715 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 729 has merged
-723024 117278 899764 0 0 0 9.99999e+20
-460006 547697 509571 0 0 0 1e+21
-433512 433949 450748 0 0 0 1e+21
-669279 149441 176592 0 0 0 2e+21
-479190 562669 515070 0 0 0 1e+21
-503276 488028 422168 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 736 has merged
-456263 411727 513256 0 0 0 1e+21
-486719 529231 444932 0 0 0 9.99999e+20
-101464 184553 730090 0 0 0 1e+21
+The object 737 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 740 has merged
-757979 573920 452235 0 0 0 9.99999e+20
-450034 544450 569062 0 0 0 1e+21
-507922 469660 349118 0 0 0 2e+21
-The object 744 has merged
-882402 811475 911097 0 0 0 1e+21
-522849 636815 512502 0 0 0 9.99999e+20
-413614 533781 495280 0 0 0 1e+21
-622115 438477 631229 0 0 0 1e+21
-390939 580385 136820 0 0 0 1e+21
-389693 557770 448624 0 0 0 1e+21
-293673 534720 498189 0 0 0 9.99998e+20
-450930 553858 285236 0 0 0 9.99999e+20
-483975 394306 454486 0 0 0 1e+21
-The object 754 has merged
-380318 500004 530938 0 0 0 1e+21
-585941 436781 411596 0 0 0 9.99999e+20
-402175 447360 539335 0 0 0 1e+21
-493361 527290 514716 0 0 0 9.99999e+20
-171669 984318 255160 0 0 0 1e+21
+The object 741 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 749 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 758 has merged
+The object 759 has merged
 The object 760 has merged
-3750.26 224780 111073 0 0 0 1e+21
-The object 762 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
 The object 763 has merged
-427201 523511 498920 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99998e+20
 The object 765 has merged
-767454 506386 522632 0 0 0 9.99998e+20
-426151 560534 526115 0 0 0 1e+21
-738864 272693 453005 0 0 0 1e+21
-The object 769 has merged
-512271 499205 536573 0 0 0 1e+21
-470931 531438 501719 0 0 0 9.99999e+20
-414550 644149 350158 0 0 0 1e+21
-87562.2 796736 472229 0 0 0 1e+21
-The object 774 has merged
-179116 311295 395706 0 0 0 1e+21
-957155 828823 74278.6 0 0 0 9.99998e+20
-515967 509972 557822 0 0 0 1e+21
-496876 501302 492522 0 0 0 1e+21
-The object 779 has merged
-476212 753266 562529 0 0 0 1e+21
-454360 353531 447293 0 0 0 1e+21
-415423 488789 501239 0 0 0 1e+21
-366355 13628 559606 0 0 0 1e+21
-475442 520999 407283 0 0 0 1e+21
-462533 494943 442132 0 0 0 1e+21
-462269 441573 463790 0 0 0 1e+21
-431143 558101 509796 0 0 0 9.99998e+20
-611360 437212 596003 0 0 0 1e+21
-527354 493125 455516 0 0 0 9.99999e+20
-479376 550778 562726 0 0 0 1e+21
-498463 549391 403404 0 0 0 2e+21
-517454 709920 536688 0 0 0 2e+21
-The object 793 has merged
-549676 831295 71423.7 0 0 0 1e+21
-635803 937074 736874 0 0 0 1e+21
-The object 796 has merged
-367039 561216 359280 0 0 0 9.99998e+20
-600674 403827 601077 0 0 0 1e+21
-112994 193354 829096 0 0 0 9.99999e+20
-The object 800 has merged
-384123 97311 229091 0 0 0 1e+21
-465512 515669 547624 0 0 0 2e+21
-575621 699712 478648 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 776 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 781 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 790 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 795 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 804 has merged
-689515 312435 197878 0 0 0 9.99999e+20
-37501.4 699534 998841 0 0 0 9.99999e+20
-228762 737891 529809 0 0 0 9.99999e+20
-495201 598601 572773 0 0 0 9.99998e+20
-673929 643103 424886 0 0 0 1e+21
+The object 805 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+The object 809 has merged
 The object 810 has merged
-441723 484219 358857 0 0 0 1e+21
+The object 811 has merged
 The object 812 has merged
-The object 813 has merged
-The object 814 has merged
-The object 815 has merged
-814211 530266 886495 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 816 has merged
 The object 817 has merged
-225645 734659 102081 0 0 0 1e+21
-384254 833431 606114 0 0 0 9.99999e+20
+The object 818 has merged
+nan nan nan 0 0 0 9.99999e+20
 The object 820 has merged
-504532 557041 520598 0 0 0 1e+21
-The object 822 has merged
-575066 341859 421928 0 0 0 1e+21
-779950 872730 314973 0 0 0 1e+21
-869011 36596.1 390421 0 0 0 1e+21
-84768.5 323236 895408 0 0 0 1e+21
-485885 469250 659726 0 0 0 9.99998e+20
-411667 427488 360480 0 0 0 1e+21
-735651 179544 740042 0 0 0 9.99999e+20
-The object 830 has merged
-458625 493331 459801 0 0 0 2e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 823 has merged
+nan nan nan 0 0 0 1e+21
+The object 825 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+The object 829 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 832 has merged
-353359 592750 484843 0 0 0 1e+21
-661368 402381 676237 0 0 0 1e+21
-475714 62941.6 425302 0 0 0 1e+21
-The object 836 has merged
-The object 837 has merged
-618827 332309 559481 0 0 0 1e+21
-429366 456602 481628 0 0 0 1e+21
-685652 181672 173791 0 0 0 1e+21
-917546 296985 615654 0 0 0 1e+21
-375226 502066 503003 0 0 0 1e+21
-520551 413140 463377 0 0 0 1e+21
-100523 911957 379727 0 0 0 2e+21
-447760 505168 474950 0 0 0 1e+21
-452292 873353 598209 0 0 0 1e+21
-910520 127303 684753 0 0 0 9.99998e+20
-424615 529051 490222 0 0 0 2e+21
-597316 572815 512673 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+The object 834 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 838 has merged
+The object 839 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
 The object 850 has merged
-625087 729715 591138 0 0 0 1e+21
-The object 852 has merged
-755513 545001 836070 0 0 0 9.99998e+20
-917271 5030.23 800018 0 0 0 1e+21
+The object 851 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+The object 854 has merged
 The object 855 has merged
 The object 856 has merged
-892455 475101 146387 0 0 0 9.99999e+20
-451916 487869 528653 0 0 0 1e+21
-529530 489014 509727 0 0 0 2e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 860 has merged
-624191 321100 596220 0 0 0 1e+21
-The object 862 has merged
-281164 682919 39771.8 0 0 0 2e+21
-98717.6 741315 559623 0 0 0 1e+21
-461382 486800 486165 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 866 has merged
-551385 521484 505270 0 0 0 1e+21
-124402 445392 17104.7 0 0 0 1e+21
-920350 106769 591021 0 0 0 1e+21
-257746 601326 451242 0 0 0 1e+21
-696994 107586 80259.3 0 0 0 9.99999e+20
-795365 386046 796792 0 0 0 1e+21
-921181 923629 115156 0 0 0 1e+21
-432989 525464 505546 0 0 0 1e+21
-The object 875 has merged
-74994.8 608936 193849 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 869 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 873 has merged
+The object 874 has merged
+nan nan nan 0 0 0 1e+21
+The object 876 has merged
 The object 877 has merged
-The object 878 has merged
-The object 879 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
 The object 880 has merged
-336916 270119 696981 0 0 0 9.99999e+20
-The object 882 has merged
-882672 808428 544888 0 0 0 1e+21
-935376 58321.5 911497 0 0 0 1e+21
-476956 520431 447890 0 0 0 1e+21
-441702 540624 541010 0 0 0 9.99999e+20
-645182 460764 584322 0 0 0 1e+21
-513496 653748 28782 0 0 0 9.99999e+20
-497134 465355 519652 0 0 0 9.99999e+20
-340425 569926 347879 0 0 0 9.99999e+20
-490082 526583 486801 0 0 0 1e+21
-864158 851696 860089 0 0 0 1e+21
-The object 893 has merged
-465038 424836 455853 0 0 0 1e+21
-The object 895 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 883 has merged
+The object 884 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 892 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 896 has merged
-871044 218436 623853 0 0 0 1e+21
-The object 898 has merged
-657168 30807.9 769973 0 0 0 2e+21
-147527 219449 732134 0 0 0 9.99999e+20
-682283 408188 660372 0 0 0 9.99999e+20
-431386 674795 704433 0 0 0 9.99999e+20
-90981.4 158201 772238 0 0 0 1e+21
-The object 904 has merged
-The object 905 has merged
-873874 623105 388968 0 0 0 1e+21
-296749 94640.8 661323 0 0 0 1e+21
-367064 15184 819157 0 0 0 9.99999e+20
-The object 909 has merged
-371274 604698 480785 0 0 0 1e+21
-494694 512570 470717 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 899 has merged
+The object 900 has merged
+The object 901 has merged
+The object 902 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 911 has merged
 The object 912 has merged
-727470 665922 660107 0 0 0 1e+21
-111630 571168 485417 0 0 0 1e+21
-488356 413609 534305 0 0 0 1e+21
-The object 916 has merged
-The object 917 has merged
-543377 136120 134702 0 0 0 1e+21
-817724 650188 297652 0 0 0 4e+21
-613838 64053.7 868498 0 0 0 1e+21
-The object 921 has merged
-98423.2 571132 690932 0 0 0 9.99998e+20
-The object 923 has merged
-418797 440434 449152 0 0 0 1e+21
+The object 913 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 920 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 925 has merged
 The object 926 has merged
-472455 290778 283471 0 0 0 1e+21
-818269 974411 871784 0 0 0 1e+21
-884355 830078 416222 0 0 0 9.99999e+20
-The object 930 has merged
+nan nan nan 0 0 0 1e+21
+The object 928 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 931 has merged
-584353 307503 420372 0 0 0 2e+21
-The object 933 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 934 has merged
-555209 531827 472612 0 0 0 9.99999e+20
-657932 891934 276421 0 0 0 2e+21
-589948 476425 427150 0 0 0 1e+21
-813323 404726 325517 0 0 0 1e+21
-The object 939 has merged
-The object 940 has merged
-983231 409210 770059 0 0 0 1e+21
-589752 397630 136844 0 0 0 1e+21
-526476 508022 533003 0 0 0 1e+21
-486606 66999 939244 0 0 0 1e+21
-467359 481322 574117 0 0 0 1e+21
-65209.2 175999 964841 0 0 0 9.99997e+20
+nan nan nan 0 0 0 9.99999e+20
+The object 936 has merged
+The object 937 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 944 has merged
+nan nan nan 0 0 0 1e+21
+The object 946 has merged
 The object 947 has merged
 The object 948 has merged
-The object 949 has merged
-147753 81825.3 1897.21 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 951 has merged
-442348 600778 454369 0 0 0 1e+21
-879576 679712 131792 0 0 0 1e+21
-868915 434694 980360 0 0 0 9.99999e+20
-538540 648635 589458 0 0 0 1e+21
-313332 472656 538532 0 0 0 1e+21
-488603 465493 437130 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 958 has merged
-760144 701494 946660 0 0 0 1e+21
-501910 732890 686205 0 0 0 1e+21
-261904 547049 624795 0 0 0 1e+21
-427798 365363 214530 0 0 0 2e+21
-The object 963 has merged
-508791 77569.2 63129.5 0 0 0 1e+21
-580929 595902 475225 0 0 0 9.99999e+20
-574724 536266 498618 0 0 0 1e+21
-The object 967 has merged
-762495 54924.8 161060 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 960 has merged
+The object 961 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 964 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 969 has merged
-414203 787602 520235 0 0 0 9.99999e+20
-452908 480375 522184 0 0 0 1e+21
-416011 505893 577338 0 0 0 1e+21
+The object 970 has merged
+The object 971 has merged
+nan nan nan 0 0 0 1e+21
 The object 973 has merged
-509089 433504 441508 0 0 0 1e+21
-904926 757173 237975 0 0 0 1e+21
-The object 976 has merged
-The object 977 has merged
-416773 403688 912412 0 0 0 9.99998e+20
-524700 549192 444403 0 0 0 1e+21
-419855 573205 377266 0 0 0 9.99999e+20
-The object 981 has merged
-338646 540382 470069 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 983 has merged
-486107 429872 405581 0 0 0 1e+21
-487061 462215 518635 0 0 0 9.99999e+20
-331402 488710 452524 0 0 0 9.99998e+20
-765401 629677 604070 0 0 0 1e+21
-The object 988 has merged
-973606 133044 625663 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
 The object 990 has merged
-640685 392410 491812 0 0 0 2e+21
-151708 196791 42057.1 0 0 0 9.99999e+20
-The object 993 has merged
-The object 994 has merged
-398768 555804 548969 0 0 0 9.99999e+20
-917067 400189 715669 0 0 0 2e+21
-The object 997 has merged
-367765 921481 128026 0 0 0 9.99999e+20
-The object 999 has merged
-542032 494235 518608 0 0 0 1e+21
-472406 503282 457644 0 0 0 9.99999e+20
-337675 418889 929585 0 0 0 1e+21
-252125 402047 767989 0 0 0 1e+21
-839462 212239 576583 0 0 0 9.99999e+20
-The object 1005 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+The object 995 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+The object 998 has merged
+nan nan nan 0 0 0 1e+21
+The object 1000 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 1002 has merged
+The object 1003 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1006 has merged
-The object 1007 has merged
-461385 484908 676667 0 0 0 9.99999e+20
-185019 543083 794285 0 0 0 1e+21
-23593.9 424335 511491 0 0 0 1e+21
-The object 1011 has merged
-The object 1012 has merged
-521646 425789 509504 0 0 0 1e+21
-The object 1014 has merged
-537784 810748 829992 0 0 0 1e+21
-29089.8 390901 106383 0 0 0 2e+21
-The object 1017 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 1008 has merged
+The object 1009 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 1018 has merged
-459258 575449 470507 0 0 0 9.99998e+20
-The object 1020 has merged
-264483 905900 547646 0 0 0 9.99998e+20
-244702 845408 448333 0 0 0 1e+21
-742250 984086 562900 0 0 0 1e+21
-907338 349234 236362 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+The object 1022 has merged
+nan nan nan 0 0 0 1e+21
+The object 1024 has merged
 The object 1025 has merged
-299613 270355 87524.3 0 0 0 9.99999e+20
-481264 474532 629563 0 0 0 1e+21
-The object 1028 has merged
-520454 429030 652216 0 0 0 1e+21
-The object 1030 has merged
-504826 158107 948754 0 0 0 1e+21
-801061 787492 953976 0 0 0 9.99998e+20
-576853 455471 377020 0 0 0 1e+21
-374539 618562 649576 0 0 0 9.99999e+20
-79161.4 22363.7 114306 0 0 0 1e+21
-390131 484158 436532 0 0 0 1e+21
-The object 1037 has merged
-134506 121461 536023 0 0 0 9.99998e+20
-226489 203544 687452 0 0 0 1e+21
-431879 325240 502722 0 0 0 9.99999e+20
-460763 558021 482157 0 0 0 1e+21
-The object 1042 has merged
-7247.76 670978 265999 0 0 0 1e+21
-967768 801518 928185 0 0 0 9.99999e+20
-The object 1045 has merged
-377585 495472 482696 0 0 0 1e+21
-530608 521701 409600 0 0 0 1e+21
-366491 348655 788038 0 0 0 1e+21
-568064 524934 436471 0 0 0 1e+21
-487925 506715 382742 0 0 0 1e+21
-586255 730896 979971 0 0 0 9.99999e+20
-81535.6 405021 468797 0 0 0 9.99999e+20
-756711 165874 813028 0 0 0 9.99999e+20
-386975 206721 118874 0 0 0 9.99998e+20
-881565 181372 400844 0 0 0 1e+21
-255943 48181 785282 0 0 0 1e+21
-The object 1057 has merged
-527546 620155 555517 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1032 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1036 has merged
+nan nan nan 0 0 0 1e+21
+The object 1038 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1043 has merged
+The object 1044 has merged
+nan nan nan 0 0 0 1e+21
+The object 1046 has merged
+The object 1047 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+The object 1054 has merged
+The object 1055 has merged
+The object 1056 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 1058 has merged
 The object 1059 has merged
-The object 1060 has merged
-382321 433651 523579 0 0 0 1e+21
-463759 548692 493216 0 0 0 1e+21
-659282 36534.4 723822 0 0 0 9.99999e+20
-The object 1064 has merged
-The object 1065 has merged
-471124 841620 876059 0 0 0 1e+21
-The object 1067 has merged
-608469 478480 81317.4 0 0 0 2e+21
-442277 530404 525097 0 0 0 1e+21
-142245 951054 447037 0 0 0 9.99999e+20
-776085 230437 904626 0 0 0 2e+21
-48669.5 945923 814683 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1066 has merged
+nan nan nan 0 0 0 1e+21
+The object 1068 has merged
+The object 1069 has merged
+The object 1070 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1073 has merged
 The object 1074 has merged
-930017 408356 504559 0 0 0 9.99999e+20
-231572 732717 919534 0 0 0 1e+21
+The object 1075 has merged
+The object 1076 has merged
 The object 1077 has merged
-479692 530939 486095 0 0 0 1e+21
-614833 233288 762672 0 0 0 1e+21
-The object 1080 has merged
-362326 350444 384913 0 0 0 1e+21
-248401 514094 485226 0 0 0 9.99999e+20
-510516 477432 561982 0 0 0 1e+21
-422655 476016 418820 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1085 has merged
 The object 1086 has merged
-506550 506589 576383 0 0 0 1e+21
-557421 656725 618065 0 0 0 2e+21
-464675 609313 442371 0 0 0 1e+21
-The object 1090 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
 The object 1091 has merged
-547569 387146 515871 0 0 0 9.99999e+20
-456010 540893 482919 0 0 0 1e+21
-515050 957098 196554 0 0 0 1e+21
-451100 567943 472062 0 0 0 1e+21
-473797 609602 571188 0 0 0 1e+21
-The object 1097 has merged
-871944 87579.2 450751 0 0 0 1e+21
-553342 749587 593554 0 0 0 2e+21
-490002 586152 506745 0 0 0 1e+21
-The object 1101 has merged
-306434 400693 752775 0 0 0 9.99998e+20
-207015 112805 591050 0 0 0 1e+21
-296752 837185 722379 0 0 0 1e+21
-772054 805471 645054 0 0 0 9.99998e+20
-526053 569530 395709 0 0 0 1e+21
-519735 331442 957031 0 0 0 9.99999e+20
-324205 635945 503125 0 0 0 9.99999e+20
-643686 936385 616832 0 0 0 1e+21
-659346 590945 936194 0 0 0 1e+21
-520869 460535 535357 0 0 0 1e+21
-180588 90694 491876 0 0 0 9.99999e+20
-The object 1113 has merged
-545742 556582 416943 0 0 0 9.99998e+20
-366489 585825 500502 0 0 0 2e+21
-512312 635381 136567 0 0 0 1e+21
-903751 909155 175735 0 0 0 1e+21
-The object 1118 has merged
-492575 522542 448870 0 0 0 1e+21
-The object 1120 has merged
-863419 98611.2 578254 0 0 0 3e+21
-520577 554481 559059 0 0 0 9.99998e+20
-210297 513102 194798 0 0 0 1e+21
-659307 884857 689720 0 0 0 1e+21
-503850 410673 637235 0 0 0 9.99999e+20
-652310 340100 40012.9 0 0 0 1e+21
-702710 374359 87792.1 0 0 0 9.99999e+20
-The object 1128 has merged
-503790 463797 318982 0 0 0 9.99999e+20
-The object 1130 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1098 has merged
+The object 1099 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1102 has merged
+The object 1103 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+The object 1107 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1114 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1117 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1121 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1127 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1131 has merged
-724862 417320 377583 0 0 0 9.99998e+20
-182472 906415 970579 0 0 0 1e+21
+The object 1132 has merged
+nan nan nan 0 0 0 1e+21
 The object 1134 has merged
-The object 1135 has merged
-47171.6 288124 528472 0 0 0 2e+21
-397055 488210 487926 0 0 0 1e+21
-114928 306887 92690.7 0 0 0 1e+21
-473976 162887 153028 0 0 0 9.99998e+20
-847936 440763 717939 0 0 0 1e+21
-516203 292854 5977.24 0 0 0 1e+21
-513388 543640 563122 0 0 0 1e+21
-457127 490757 536735 0 0 0 9.99999e+20
-66530.9 464334 66349.3 0 0 0 1e+21
-353140 673906 947174 0 0 0 1e+21
-437708 926084 936278 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1138 has merged
+The object 1139 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1142 has merged
+The object 1143 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1147 has merged
-448903 485499 477184 0 0 0 9.99999e+20
-494919 528703 538813 0 0 0 9.99999e+20
-508711 511819 467470 0 0 0 1e+21
-490211 476313 470865 0 0 0 9.99998e+20
-861734 314498 703007 0 0 0 1e+21
-590242 336456 735383 0 0 0 1e+21
-360026 559984 367646 0 0 0 9.99999e+20
-376861 541746 480244 0 0 0 1e+21
-483525 451668 427357 0 0 0 9.99998e+20
-569651 558369 537156 0 0 0 1e+21
-525433 450032 425701 0 0 0 9.99998e+20
-395368 588746 464862 0 0 0 1e+21
-478633 567358 548011 0 0 0 1e+21
-547923 170228 121858 0 0 0 1e+21
-159245 293382 3004.48 0 0 0 1e+21
-536514 432418 435818 0 0 0 1e+21
-404639 534138 545032 0 0 0 9.99999e+20
-597280 942529 679670 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+The object 1150 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+The object 1157 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+The object 1160 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1164 has merged
+nan nan nan 0 0 0 9.99999e+20
 The object 1166 has merged
-823454 296025 449810 0 0 0 1e+21
-The object 1168 has merged
-573658 425443 574324 0 0 0 1e+21
-380310 605267 98596.4 0 0 0 2e+21
-The object 1171 has merged
-473244 699519 542715 0 0 0 2e+21
-459534 337053 313651 0 0 0 1e+21
-554597 505458 488364 0 0 0 9.99999e+20
-The object 1175 has merged
-670156 143633 836393 0 0 0 2e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1172 has merged
+The object 1173 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
 The object 1177 has merged
-991446 68338.6 832808 0 0 0 1e+21
-224143 329273 454912 0 0 0 1e+21
+The object 1178 has merged
+The object 1179 has merged
 The object 1180 has merged
-294638 888289 420808 0 0 0 2e+21
-792649 447264 816935 0 0 0 1e+21
-763612 93189.7 111360 0 0 0 1e+21
-443986 464081 366746 0 0 0 1e+21
-493844 520096 493743 0 0 0 1e+21
-83757.8 159272 464228 0 0 0 1e+21
-496530 563827 526939 0 0 0 1e+21
-423585 549126 584160 0 0 0 1e+21
-399828 448735 493664 0 0 0 2e+21
-398610 242677 314834 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1183 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1186 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
 The object 1191 has merged
-625484 529065 245192 0 0 0 1e+21
-The object 1193 has merged
-255719 577456 545319 0 0 0 1e+21
-859138 956811 563579 0 0 0 1e+21
-499564 512404 483068 0 0 0 1e+21
-331332 546868 339205 0 0 0 1e+21
-803609 986154 196624 0 0 0 1e+21
-536569 483806 483744 0 0 0 9.99998e+20
-977591 170074 795735 0 0 0 1e+21
-648313 540937 481738 0 0 0 9.99999e+20
-The object 1202 has merged
-The object 1203 has merged
-560087 998129 634580 0 0 0 1e+21
-438224 449624 485991 0 0 0 9.99999e+20
-426746 48466.7 372538 0 0 0 2e+21
-149325 835395 330939 0 0 0 9.99999e+20
-493694 432012 21084.8 0 0 0 1e+21
-The object 1209 has merged
-515127 521341 478201 0 0 0 1e+21
-390928 586085 503251 0 0 0 9.99999e+20
-419090 481119 446059 0 0 0 1e+21
-408980 545991 480087 0 0 0 9.99999e+20
-467959 443946 511137 0 0 0 2e+21
-466126 573244 475304 0 0 0 1e+21
-559746 649292 456610 0 0 0 1e+21
-The object 1217 has merged
-The object 1218 has merged
-917260 647337 530507 0 0 0 2e+21
-621005 934480 277039 0 0 0 1e+21
-The object 1221 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1198 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1204 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99997e+20
+The object 1207 has merged
+The object 1208 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1216 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
 The object 1222 has merged
-The object 1223 has merged
-714624 29050.9 821508 0 0 0 9.99999e+20
-612948 370353 491719 0 0 0 9.99999e+20
-276447 547435 90856.1 0 0 0 9.99999e+20
-223334 7481.65 946569 0 0 0 1e+21
-The object 1228 has merged
-The object 1229 has merged
-438715 492051 542957 0 0 0 2e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+The object 1226 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
 The object 1231 has merged
-684837 200947 473811 0 0 0 2e+21
-330653 467709 448840 0 0 0 1e+21
-The object 1234 has merged
-495512 509413 453548 0 0 0 1e+21
-412582 608761 444513 0 0 0 9.99999e+20
-778248 460319 833215 0 0 0 1e+21
-272106 388486 478610 0 0 0 1e+21
-413963 529955 542403 0 0 0 1e+21
-826337 263967 444750 0 0 0 1e+21
-The object 1241 has merged
-288502 142838 362696 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1243 has merged
-484277 142715 441044 0 0 0 9.99999e+20
-The object 1245 has merged
-536903 984767 813449 0 0 0 1e+21
-498150 597522 634181 0 0 0 1e+21
-202076 437955 492477 0 0 0 1e+21
-170813 727927 295076 0 0 0 1e+21
-358605 346355 523125 0 0 0 9.99999e+20
-881732 929042 372567 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1246 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1251 has merged
 The object 1252 has merged
-The object 1253 has merged
-564939 416292 498357 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1255 has merged
-989429 949458 343152 0 0 0 9.99998e+20
-553562 510869 536754 0 0 0 1e+21
-The object 1258 has merged
-507877 902837 160619 0 0 0 9.99999e+20
-389887 512715 454543 0 0 0 1e+21
-463024 214859 984400 0 0 0 2e+21
-414634 457384 445681 0 0 0 9.99999e+20
-476665 569334 487139 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1259 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1264 has merged
-The object 1265 has merged
-358344 437486 724099 0 0 0 9.99999e+20
-The object 1267 has merged
-254339 710977 168485 0 0 0 1e+21
-460592 721072 918370 0 0 0 9.99998e+20
-382931 886910 41988.7 0 0 0 2e+21
-398317 441513 382805 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1268 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+The object 1271 has merged
 The object 1272 has merged
-830140 654480 231758 0 0 0 1e+21
-394628 168414 321969 0 0 0 9.99999e+20
-699433 998148 773520 0 0 0 1e+21
-480030 6151.07 119483 0 0 0 2e+21
-430432 418462 386180 0 0 0 9.99999e+20
-639787 875742 316637 0 0 0 1e+21
-541548 369813 835988 0 0 0 1e+21
-547858 497815 494668 0 0 0 1e+21
-530291 609397 368528 0 0 0 1e+21
-411791 577797 597491 0 0 0 1e+21
-517406 541750 510351 0 0 0 1e+21
-588220 625422 478951 0 0 0 9.99999e+20
-The object 1285 has merged
-The object 1286 has merged
-446497 119881 777271 0 0 0 9.99999e+20
-472035 584396 390932 0 0 0 1e+21
+The object 1273 has merged
+The object 1274 has merged
+The object 1275 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1279 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1289 has merged
-417880 480576 571302 0 0 0 1e+21
-97466.2 815249 29145.3 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1291 has merged
 The object 1292 has merged
-472289 522166 547568 0 0 0 1e+21
-The object 1294 has merged
-336096 338684 556765 0 0 0 1e+21
-438191 534574 466164 0 0 0 1e+21
-423228 113010 92133.2 0 0 0 9.99999e+20
-590020 634361 744489 0 0 0 9.99998e+20
-426844 152808 905261 0 0 0 3e+21
-641803 82061 335380 0 0 0 1e+21
-The object 1301 has merged
-430243 627797 812810 0 0 0 1e+21
-496496 517535 491119 0 0 0 9.99999e+20
-The object 1304 has merged
-436780 462023 405777 0 0 0 1e+21
-The object 1306 has merged
-296004 541713 486045 0 0 0 1e+21
-887179 192111 193897 0 0 0 9.99999e+20
-847964 80609 571571 0 0 0 1e+21
-778328 102466 671703 0 0 0 1e+21
-844601 823108 580320 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1296 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+The object 1299 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1312 has merged
-552113 490401 483434 0 0 0 1e+21
-385009 511123 595271 0 0 0 1e+21
-The object 1315 has merged
-480766 411397 458882 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1317 has merged
-355174 208120 434757 0 0 0 1e+21
-484395 453231 458918 0 0 0 1e+21
-508060 49364.8 307293 0 0 0 1e+21
-527882 481676 542978 0 0 0 1e+21
-432877 432612 459940 0 0 0 1e+21
-573537 238033 215245 0 0 0 1e+21
-The object 1324 has merged
-The object 1325 has merged
-498166 508237 459791 0 0 0 1e+21
-808494 382560 885799 0 0 0 9.99999e+20
-304120 817074 99413.5 0 0 0 1e+21
-411753 892306 755674 0 0 0 1e+21
-268942 269131 855090 0 0 0 1e+21
-The object 1331 has merged
-656138 900381 484352 0 0 0 1e+21
-823485 995410 497235 0 0 0 1e+21
-110478 227247 958680 0 0 0 2e+21
-443948 598498 634144 0 0 0 9.99999e+20
-448956 124135 531243 0 0 0 9.99999e+20
-The object 1337 has merged
-312145 683039 389460 0 0 0 9.99999e+20
-439863 631002 537037 0 0 0 1e+21
-461793 511809 550029 0 0 0 1e+21
-582272 446804 530423 0 0 0 1e+21
-The object 1342 has merged
-704268 455347 492390 0 0 0 1e+21
-349197 637772 657004 0 0 0 1e+21
-668748 423540 754091 0 0 0 9.99999e+20
-365876 639717 821207 0 0 0 1e+21
-The object 1347 has merged
-433722 538355 534026 0 0 0 9.99999e+20
-512143 633119 522726 0 0 0 1e+21
-428438 475057 483520 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1323 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1330 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1334 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1338 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1344 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1351 has merged
-675434 393600 403880 0 0 0 2e+21
-541862 567592 500530 0 0 0 1e+21
-400067 541823 452891 0 0 0 9.99999e+20
-453396 486468 521185 0 0 0 1e+21
-The object 1356 has merged
-The object 1357 has merged
-735417 47223.4 276445 0 0 0 1e+21
-653302 211178 871629 0 0 0 1e+21
-The object 1360 has merged
-548336 524729 489466 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1358 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1362 has merged
-881492 125338 733098 0 0 0 1e+21
-573196 513385 505843 0 0 0 9.99999e+20
-808904 651721 330994 0 0 0 1e+21
-The object 1366 has merged
-79262.9 713273 274168 0 0 0 1e+21
-437134 135430 626443 0 0 0 1e+21
-490405 455840 483255 0 0 0 1e+21
-64410.4 652350 272769 0 0 0 1e+21
-518021 472352 440720 0 0 0 9.99999e+20
-834646 237465 35952.6 0 0 0 1e+21
-545165 821197 674875 0 0 0 1e+21
-425314 557602 581766 0 0 0 9.99999e+20
-The object 1375 has merged
-683130 376771 233010 0 0 0 1e+21
-691735 530624 567808 0 0 0 9.99999e+20
-498738 380124 565365 0 0 0 1e+21
-524377 444447 584003 0 0 0 1e+21
-549796 535247 537791 0 0 0 9.99999e+20
-477054 517116 321801 0 0 0 1e+21
-742411 205218 599769 0 0 0 1e+21
-963762 214727 444292 0 0 0 9.99999e+20
-451211 503325 503728 0 0 0 9.99999e+20
-377021 96296.7 234965 0 0 0 1e+21
-61297.7 191712 451575 0 0 0 9.99999e+20
-368723 750752 157126 0 0 0 1e+21
-The object 1388 has merged
-The object 1389 has merged
-531097 471943 2589.37 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1370 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1373 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1391 has merged
-The object 1392 has merged
+nan nan nan 0 0 0 9.99999e+20
 The object 1393 has merged
-261206 455225 556647 0 0 0 9.99999e+20
-The object 1395 has merged
-The object 1396 has merged
-376885 990494 733700 0 0 0 9.99999e+20
-920454 829964 374883 0 0 0 1e+21
-547493 380895 531916 0 0 0 1e+21
-734456 201108 39426.8 0 0 0 1e+21
-823229 201786 841595 0 0 0 1e+21
-528692 423688 27587.5 0 0 0 1e+21
-331771 690033 547789 0 0 0 9.99999e+20
-725499 98864.5 184268 0 0 0 9.99999e+20
-127099 600192 728141 0 0 0 1e+21
-367856 357013 517811 0 0 0 9.99999e+20
-544421 602232 977320 0 0 0 9.99999e+20
-The object 1408 has merged
+The object 1394 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1397 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1400 has merged
+nan nan nan 0 0 0 1e+21
+The object 1402 has merged
+The object 1403 has merged
+The object 1404 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
 The object 1409 has merged
 The object 1410 has merged
-757708 728440 67356.6 0 0 0 1e+21
-510500 621292 428892 0 0 0 1e+21
-468962 424334 536744 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1413 has merged
 The object 1414 has merged
-362972 660121 407668 0 0 0 1e+21
-460489 539263 495973 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1417 has merged
-520372 86848.4 756474 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1419 has merged
-540777 356871 468022 0 0 0 9.99999e+20
-The object 1421 has merged
-The object 1422 has merged
-505193 352602 508609 0 0 0 1e+21
-The object 1424 has merged
-The object 1425 has merged
-The object 1426 has merged
-653996 634514 395647 0 0 0 9.99999e+20
-638080 435941 594335 0 0 0 1e+21
-The object 1429 has merged
-486988 511433 483673 0 0 0 1e+21
-812519 260659 491446 0 0 0 9.99997e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1423 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99997e+20
 The object 1432 has merged
-550135 189789 171053 0 0 0 1e+21
-505455 335642 465646 0 0 0 1e+21
-447583 440788 493756 0 0 0 9.99999e+20
-The object 1436 has merged
-495524 512794 452542 0 0 0 1e+21
-155563 724094 595340 0 0 0 1e+21
-168882 792133 127796 0 0 0 1e+21
-663327 343637 503913 0 0 0 1e+21
-501624 519461 503517 0 0 0 1e+21
-623499 629515 547404 0 0 0 1e+21
-282046 545034 566114 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1435 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1438 has merged
+nan nan nan 0 0 0 1e+21
+The object 1440 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1444 has merged
-386844 571947 583797 0 0 0 1e+21
-The object 1446 has merged
-487726 438210 389791 0 0 0 1e+21
-The object 1448 has merged
-355628 501311 125790 0 0 0 1e+21
-613206 824890 502480 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1451 has merged
 The object 1452 has merged
-The object 1453 has merged
-216447 449156 322854 0 0 0 9.99999e+20
-380541 157729 186687 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1455 has merged
 The object 1456 has merged
-984840 57281.6 11251.2 0 0 0 2e+21
-484208 537983 485228 0 0 0 9.99999e+20
-The object 1459 has merged
-711192 758943 740469 0 0 0 9.99999e+20
-403156 438984 515548 0 0 0 1e+21
-679202 896412 503216 0 0 0 9.99999e+20
-The object 1463 has merged
-470435 551334 510495 0 0 0 1e+21
-175218 809117 852065 0 0 0 1e+21
-524509 609236 472920 0 0 0 9.99998e+20
-618493 496724 399614 0 0 0 1e+21
-473534 258919 510138 0 0 0 9.99999e+20
-976354 157970 550987 0 0 0 1e+21
-332129 484263 438068 0 0 0 9.99999e+20
-The object 1471 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1465 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+The object 1468 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1472 has merged
-82056.2 808586 824255 0 0 0 2e+21
-The object 1474 has merged
-643641 129688 228649 0 0 0 1e+21
+The object 1473 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1476 has merged
-The object 1477 has merged
-520540 488017 496741 0 0 0 1e+21
-The object 1479 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 1478 has merged
+nan nan nan 0 0 0 1e+21
 The object 1480 has merged
 The object 1481 has merged
-486426 475441 51749 0 0 0 1e+21
-The object 1483 has merged
-851432 856430 833159 0 0 0 1e+21
-The object 1485 has merged
-623348 267797 200626 0 0 0 1e+21
-555022 322914 418052 0 0 0 1e+21
-The object 1488 has merged
-385424 552125 383237 0 0 0 1e+21
-329111 573665 456025 0 0 0 1e+21
-470232 431639 541781 0 0 0 1e+21
+The object 1482 has merged
+nan nan nan 0 0 0 1e+21
+The object 1484 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 1486 has merged
+The object 1487 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1492 has merged
-364585 709285 370789 0 0 0 9.99999e+20
-856751 103533 95471.6 0 0 0 9.99999e+20
-The object 1495 has merged
-961498 331318 549205 0 0 0 9.99999e+20
-653207 754499 702528 0 0 0 2e+21
-The object 1498 has merged
-545117 762604 161259 0 0 0 1e+21
-317642 620003 407956 0 0 0 1e+21
-470471 573466 574487 0 0 0 1e+21
-74692.2 680830 424797 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1494 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1497 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1501 has merged
+nan nan nan 0 0 0 1e+21
 The object 1503 has merged
-753048 901962 713829 0 0 0 1e+21
-636403 811320 521648 0 0 0 1e+21
-75091.4 163516 908135 0 0 0 1e+21
-162989 562916 140429 0 0 0 9.99999e+20
-347959 101939 370764 0 0 0 9.99999e+20
-934466 779776 386918 0 0 0 1e+21
-299895 960059 854647 0 0 0 1e+21
-510520 139676 934850 0 0 0 1e+21
-525036 480797 527673 0 0 0 9.99998e+20
-69550 884057 285138 0 0 0 1e+21
-The object 1514 has merged
-535770 404744 445865 0 0 0 1e+21
-864620 782164 663499 0 0 0 1e+21
+The object 1504 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1507 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 1509 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1515 has merged
+The object 1516 has merged
 The object 1517 has merged
-The object 1518 has merged
-573454 306346 730433 0 0 0 1e+21
-The object 1520 has merged
-441721 574475 507616 0 0 0 9.99999e+20
-491389 602529 471818 0 0 0 1e+21
-436080 539442 505611 0 0 0 1e+21
-The object 1524 has merged
-158587 750522 291621 0 0 0 1e+21
-331892 153328 164130 0 0 0 9.99999e+20
-The object 1527 has merged
-337226 788971 730828 0 0 0 1e+21
-404328 616204 511205 0 0 0 1e+21
-716709 662912 9986.38 0 0 0 1e+21
-106261 331486 537783 0 0 0 9.99999e+20
-721138 54805.3 96608.2 0 0 0 1e+21
-375714 461702 504741 0 0 0 1e+21
-84075.7 526394 616236 0 0 0 1e+21
-The object 1535 has merged
-441134 530568 401501 0 0 0 1e+21
-595639 625604 457407 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1521 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1528 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1532 has merged
+nan nan nan 0 0 0 1e+21
+The object 1534 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1538 has merged
-909838 470113 308831 0 0 0 2e+21
-859105 149879 454513 0 0 0 1e+21
-231870 332364 906180 0 0 0 9.99999e+20
-The object 1542 has merged
-446335 489237 492385 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1540 has merged
+The object 1541 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1544 has merged
-240071 851987 876415 0 0 0 1e+21
-925831 583417 235544 0 0 0 9.99999e+20
-The object 1547 has merged
-314397 376798 588178 0 0 0 1e+21
-971720 688417 929889 0 0 0 1e+21
-908608 785183 638053 0 0 0 1e+21
-480579 509758 526938 0 0 0 9.99998e+20
-The object 1552 has merged
-609452 349883 487044 0 0 0 1e+21
-554138 313775 586674 0 0 0 9.99999e+20
-504698 562887 374999 0 0 0 1e+21
+The object 1545 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1556 has merged
-416828 526705 488916 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1558 has merged
-The object 1559 has merged
-The object 1560 has merged
-22741.5 722673 855516 0 0 0 1e+21
-206364 471915 843514 0 0 0 1e+21
-30638 958648 49860.4 0 0 0 1e+21
-The object 1564 has merged
-263608 726942 48810.2 0 0 0 9.99999e+20
-531516 553346 559570 0 0 0 1e+21
-355931 116521 348138 0 0 0 1e+21
-378777 528750 488593 0 0 0 1e+21
-431049 539898 544568 0 0 0 9.99999e+20
-421818 644772 423022 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+The object 1561 has merged
+nan nan nan 0 0 0 1e+21
+The object 1563 has merged
+nan nan nan 0 0 0 1e+21
+The object 1565 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1571 has merged
-588275 598914 635877 0 0 0 9.99999e+20
-612555 527598 416526 0 0 0 1e+21
-815236 101587 38192.5 0 0 0 1e+21
-The object 1575 has merged
-24253 362239 97064.7 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1574 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1577 has merged
-The object 1578 has merged
-637029 176982 599709 0 0 0 1e+21
-607212 625084 495150 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1580 has merged
 The object 1581 has merged
-71947.1 122844 996585 0 0 0 9.99999e+20
-522389 429107 488480 0 0 0 1e+21
-772051 446346 425663 0 0 0 1e+21
-336141 359294 855760 0 0 0 1e+21
-367769 574984 2567.69 0 0 0 1e+21
+The object 1582 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1587 has merged
 The object 1588 has merged
-465872 524850 442635 0 0 0 2e+21
+The object 1589 has merged
 The object 1590 has merged
-412366 395850 432953 0 0 0 1e+21
-The object 1592 has merged
-The object 1593 has merged
-388144 211390 9472.09 0 0 0 9.99999e+20
-548973 475440 578870 0 0 0 1e+21
-323792 590094 427687 0 0 0 1e+21
-The object 1597 has merged
-420553 435016 433009 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
 The object 1599 has merged
-412168 479857 526638 0 0 0 9.99998e+20
-The object 1601 has merged
-544618 581868 452233 0 0 0 1e+21
-620017 235048 370292 0 0 0 1e+21
-659367 171526 604592 0 0 0 1e+21
-497577 426541 410612 0 0 0 9.99999e+20
-The object 1606 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+The object 1602 has merged
+The object 1603 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1607 has merged
-229245 351381 3176.81 0 0 0 1e+21
-873574 801139 458378 0 0 0 1e+21
-35023.9 28139.3 233181 0 0 0 9.99999e+20
-210910 793110 977795 0 0 0 1e+21
-499695 518242 516456 0 0 0 1e+21
-31927.5 792307 982129 0 0 0 1e+21
-461066 532108 543851 0 0 0 1e+21
-The object 1615 has merged
-The object 1616 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1617 has merged
-429842 481627 472984 0 0 0 1e+21
-The object 1619 has merged
-345758 361177 449662 0 0 0 9.99999e+20
-552994 425934 493384 0 0 0 1e+21
-414983 586348 402045 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
 The object 1623 has merged
-410072 469578 512595 0 0 0 1e+21
-The object 1625 has merged
-The object 1626 has merged
-360431 433046 451727 0 0 0 9.99998e+20
-189847 616186 277455 0 0 0 1e+21
-The object 1629 has merged
-475092 543440 483061 0 0 0 9.99999e+20
-316947 286028 984770 0 0 0 1e+21
-544248 622115 449303 0 0 0 1e+21
-532957 805958 532881 0 0 0 9.99999e+20
+The object 1624 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1631 has merged
+The object 1632 has merged
+nan nan nan 0 0 0 9.99999e+20
 The object 1634 has merged
-509071 507148 390118 0 0 0 1e+21
-542095 683062 465658 0 0 0 9.99999e+20
-476160 519642 435503 0 0 0 1e+21
+The object 1635 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1638 has merged
-531366 572760 410178 0 0 0 1e+21
-268683 685291 440354 0 0 0 9.99998e+20
-392031 500078 452002 0 0 0 1e+21
-The object 1642 has merged
-496337 912877 803592 0 0 0 1e+21
-610217 448644 596268 0 0 0 1e+21
-The object 1645 has merged
-The object 1646 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1643 has merged
+The object 1644 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1647 has merged
 The object 1648 has merged
-The object 1649 has merged
-412318 324221 475056 0 0 0 9.99999e+20
-959164 257580 155218 0 0 0 1e+21
-126884 883276 622676 0 0 0 9.99999e+20
-405339 563678 604423 0 0 0 1e+21
-454177 443658 470102 0 0 0 9.99999e+20
-420101 593010 975588 0 0 0 1e+21
-270041 892286 101965 0 0 0 1e+21
-The object 1657 has merged
-373585 559279 431899 0 0 0 1e+21
-549768 779294 214802 0 0 0 9.99999e+20
-531906 943296 276318 0 0 0 9.99999e+20
-856565 51327.1 805392 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+The object 1661 has merged
 The object 1662 has merged
-484579 484166 571535 0 0 0 1e+21
-465402 517564 530292 0 0 0 1e+21
-The object 1665 has merged
-164353 656676 525533 0 0 0 1e+21
-442948 497337 475637 0 0 0 1e+21
-229574 733282 54018 0 0 0 9.99999e+20
-454443 503177 482471 0 0 0 1e+21
-486252 554304 435585 0 0 0 9.99998e+20
-382566 487779 572739 0 0 0 1e+21
-484412 528682 411487 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1668 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1673 has merged
-422898 177747 222422 0 0 0 9.99999e+20
+The object 1674 has merged
 The object 1675 has merged
-165114 828473 733461 0 0 0 9.99999e+20
-558912 539892 476361 0 0 0 1e+21
-149178 681200 590747 0 0 0 1e+21
-143108 586308 521352 0 0 0 9.99999e+20
-302944 565167 473903 0 0 0 1e+21
-106727 515978 189005 0 0 0 9.99999e+20
-509308 236922 461120 0 0 0 9.99999e+20
-The object 1683 has merged
-475454 581879 543120 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1678 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+The object 1684 has merged
 The object 1685 has merged
-The object 1686 has merged
-The object 1687 has merged
-983930 511299 969255 0 0 0 1e+21
-852139 358233 787837 0 0 0 1e+21
-598893 495700 487075 0 0 0 1e+21
-629627 454227 621086 0 0 0 1e+21
-695358 228000 278399 0 0 0 1e+21
-223917 693475 547948 0 0 0 1e+21
-550985 499187 491241 0 0 0 1e+21
-The object 1695 has merged
-137189 320732 935733 0 0 0 1e+21
-382619 619954 329137 0 0 0 1e+21
-341317 379289 566939 0 0 0 1e+21
-The object 1699 has merged
-210205 700934 674583 0 0 0 1e+21
-The object 1701 has merged
-413007 698192 281779 0 0 0 1e+21
-674334 354975 361628 0 0 0 1e+21
-209559 535443 285329 0 0 0 1e+21
-37213 945435 964498 0 0 0 9.99998e+20
-301803 848789 598903 0 0 0 1e+21
-24949.1 242763 238243 0 0 0 1e+21
-248007 238828 158587 0 0 0 9.99999e+20
-628418 741127 525799 0 0 0 9.99999e+20
-559050 485014 483294 0 0 0 9.99998e+20
-The object 1711 has merged
-493370 714883 539551 0 0 0 1e+21
-340723 766074 973332 0 0 0 1e+21
-446830 539783 446085 0 0 0 1e+21
-612574 358578 105117 0 0 0 9.99999e+20
-794843 485504 979697 0 0 0 1e+21
-639818 318178 728234 0 0 0 9.99999e+20
-457549 486828 529863 0 0 0 1e+21
-467962 530382 410502 0 0 0 1e+21
-626471 449720 495110 0 0 0 1e+21
-387128 360839 422973 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1696 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1700 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+The object 1706 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+The object 1712 has merged
+The object 1713 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1721 has merged
 The object 1722 has merged
-The object 1723 has merged
-238295 707045 544838 0 0 0 1e+21
-293402 886690 19118.3 0 0 0 9.99998e+20
-476684 471954 508781 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1724 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 1727 has merged
 The object 1728 has merged
-890512 491230 719820 0 0 0 1e+21
-440387 560945 414293 0 0 0 1e+21
-497053 375037 968630 0 0 0 1e+21
-117525 712313 270736 0 0 0 1e+21
-494191 537755 443102 0 0 0 1e+21
-283254 689833 906943 0 0 0 1e+21
-511933 594147 515875 0 0 0 1e+21
-390602 415982 500384 0 0 0 1e+21
-The object 1737 has merged
+nan nan nan 0 0 0 1e+21
+The object 1730 has merged
+The object 1731 has merged
+The object 1732 has merged
+The object 1733 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1738 has merged
-449391 410238 590046 0 0 0 9.99999e+20
-426509 589321 415749 0 0 0 1e+21
-62161.4 993623 837327 0 0 0 1e+21
-98558.5 558471 369869 0 0 0 1e+21
-453587 547950 500011 0 0 0 9.99999e+20
-The object 1744 has merged
-351248 403994 386541 0 0 0 1e+21
-623349 592308 413697 0 0 0 1e+21
-The object 1747 has merged
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1741 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1748 has merged
-678044 888340 243415 0 0 0 1e+21
-449556 589953 453694 0 0 0 1e+21
-714438 734684 988569 0 0 0 1e+21
-499961 384710 413268 0 0 0 1e+21
-601829 483721 590613 0 0 0 1e+21
-The object 1754 has merged
-The object 1755 has merged
+nan nan nan 0 0 0 1e+21
+The object 1750 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1756 has merged
-404331 664072 299570 0 0 0 9.99998e+20
-The object 1758 has merged
-425819 508469 479846 0 0 0 1e+21
-The object 1760 has merged
-443376 467388 423004 0 0 0 2e+21
-546992 757784 680842 0 0 0 1e+21
-454590 489899 572600 0 0 0 1e+21
-627308 475999 478754 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1761 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1764 has merged
 The object 1765 has merged
-57930.9 135934 986329 0 0 0 1e+21
-356636 598772 461290 0 0 0 1e+21
+The object 1766 has merged
+nan nan nan 0 0 0 1e+21
 The object 1768 has merged
-525085 479911 556393 0 0 0 9.99998e+20
-463408 511476 460840 0 0 0 1e+21
-548594 411236 413829 0 0 0 1e+21
-388665 456159 806688 0 0 0 9.99998e+20
-61495 887084 409066 0 0 0 9.99999e+20
-The object 1774 has merged
-386147 551982 566719 0 0 0 1e+21
-502731 543039 408241 0 0 0 1e+21
-563877 444163 504680 0 0 0 1e+21
-The object 1778 has merged
-404442 64340.5 989394 0 0 0 9.99998e+20
-957366 76100.5 920140 0 0 0 9.99999e+20
-485941 568214 435694 0 0 0 1e+21
-322444 562024 611210 0 0 0 1e+21
-400418 641481 481852 0 0 0 1e+21
-The object 1784 has merged
-479742 493290 529429 0 0 0 1e+21
-586212 749205 623888 0 0 0 9.99999e+20
-The object 1787 has merged
-808109 748085 684397 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+The object 1770 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+The object 1773 has merged
+nan nan nan 0 0 0 1e+21
+The object 1775 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+The object 1780 has merged
+The object 1781 has merged
+The object 1782 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1789 has merged
 The object 1790 has merged
-The object 1791 has merged
-589742 443017 518568 0 0 0 9.99999e+20
-919715 119476 98908.8 0 0 0 1e+21
-The object 1794 has merged
-967398 852924 208927 0 0 0 1e+21
-746052 884735 876678 0 0 0 1e+21
-875159 459723 241747 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1795 has merged
+The object 1796 has merged
+nan nan nan 0 0 0 1e+21
 The object 1798 has merged
-The object 1799 has merged
-40909.7 110448 255943 0 0 0 1e+21
-460971 514800 868934 0 0 0 9.99999e+20
-342940 494947 115967 0 0 0 1e+21
-245092 800182 547557 0 0 0 2e+21
-484774 538713 495745 0 0 0 1e+21
-The object 1805 has merged
-580898 451466 616669 0 0 0 9.99998e+20
-469431 487964 456169 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1802 has merged
+The object 1803 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
 The object 1808 has merged
-776443 485726 112779 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1810 has merged
-390122 403328 388400 0 0 0 1e+21
+The object 1811 has merged
 The object 1812 has merged
-727844 223840 802346 0 0 0 1e+21
-The object 1814 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1815 has merged
-The object 1816 has merged
-154182 560379 922688 0 0 0 1e+21
-474005 561390 567662 0 0 0 9.99999e+20
-641477 249578 690735 0 0 0 1e+21
-183386 693771 828784 0 0 0 9.99999e+20
-46869.6 838000 751893 0 0 0 1e+21
-627578 588793 229957 0 0 0 1e+21
-534868 487747 471126 0 0 0 1e+21
-915922 258711 978748 0 0 0 1e+21
-The object 1825 has merged
-359188 473521 489294 0 0 0 9.99999e+20
-The object 1827 has merged
-341903 321525 480068 0 0 0 1e+21
-303655 624022 514154 0 0 0 9.99999e+20
-477509 440303 503682 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1820 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1824 has merged
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1831 has merged
 The object 1832 has merged
-The object 1833 has merged
-164371 713784 826937 0 0 0 9.99998e+20
-764803 7523.33 859819 0 0 0 9.99999e+20
-548865 607559 464571 0 0 0 1e+21
-The object 1837 has merged
-540804 385808 443864 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99998e+20
+The object 1835 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
 The object 1839 has merged
-448832 583798 530560 0 0 0 9.99998e+20
-The object 1841 has merged
-481456 503249 544525 0 0 0 1e+21
-804336 709471 377837 0 0 0 1e+21
-726028 88718.2 192122 0 0 0 1e+21
-315432 254794 806558 0 0 0 1e+21
-The object 1846 has merged
-The object 1847 has merged
-297982 594111 562899 0 0 0 1e+21
-883238 753716 221954 0 0 0 9.99999e+20
-188570 484054 598199 0 0 0 1e+21
-560653 222771 368868 0 0 0 1e+21
-603046 31036.8 63226.3 0 0 0 1e+21
-804364 195690 492922 0 0 0 1e+21
-The object 1854 has merged
-477384 473280 339208 0 0 0 1e+21
-446578 323961 472062 0 0 0 9.99999e+20
-607789 735957 657643 0 0 0 1e+21
-The object 1858 has merged
-339519 162255 661217 0 0 0 1e+21
-554398 467144 358408 0 0 0 1e+21
-541527 537131 420976 0 0 0 1e+21
-431180 357986 123065 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1844 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1851 has merged
+The object 1852 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1855 has merged
+nan nan nan 0 0 0 9.99999e+20
+The object 1857 has merged
+nan nan nan 0 0 0 1e+21
+The object 1859 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
 The object 1863 has merged
-774232 956628 70959.1 0 0 0 1e+21
-783500 854450 499536 0 0 0 1e+21
-727791 833679 343797 0 0 0 9.99999e+20
-703077 461221 630531 0 0 0 9.99999e+20
-507080 570670 498214 0 0 0 1e+21
-455133 501755 452795 0 0 0 1e+21
-The object 1870 has merged
-The object 1871 has merged
-180979 683811 764155 0 0 0 1e+21
-551308 228622 337597 0 0 0 1e+21
-479942 899043 789896 0 0 0 1e+21
-341486 383364 567490 0 0 0 9.99999e+20
-424778 511212 484021 0 0 0 9.99999e+20
-388329 750317 406549 0 0 0 1e+21
+The object 1864 has merged
+The object 1865 has merged
+The object 1866 has merged
+The object 1867 has merged
+nan nan nan 0 0 0 1e+21
+The object 1869 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1872 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+The object 1877 has merged
 The object 1878 has merged
-465695 497959 351812 0 0 0 1e+21
-The object 1880 has merged
-The object 1881 has merged
-429538 604846 466540 0 0 0 1e+21
-The object 1883 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1882 has merged
+nan nan nan 0 0 0 1e+21
 The object 1884 has merged
-439515 434001 469933 0 0 0 1e+21
-668844 537250 60049 0 0 0 1e+21
-703403 776738 848220 0 0 0 9.99999e+20
-688064 574175 998306 0 0 0 9.99999e+20
+The object 1885 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 1889 has merged
-The object 1890 has merged
-421207 235477 466333 0 0 0 1e+21
-19104.2 364401 901595 0 0 0 9.99999e+20
-The object 1893 has merged
-The object 1894 has merged
-366261 519440 518643 0 0 0 1e+21
-657153 681177 459094 0 0 0 9.99999e+20
-661713 867061 476839 0 0 0 9.99999e+20
-431100 547004 466795 0 0 0 9.99998e+20
-503075 498911 413178 0 0 0 1e+21
-680480 982843 639708 0 0 0 1e+21
-480375 543373 519502 0 0 0 1e+21
-395091 437485 504745 0 0 0 1e+21
-32603.9 185382 849080 0 0 0 1e+21
-The object 1904 has merged
-365314 553877 490821 0 0 0 9.99999e+20
-The object 1906 has merged
-446838 593402 326831 0 0 0 1e+21
-746985 390707 426473 0 0 0 9.99999e+20
-The object 1909 has merged
-523287 468426 486206 0 0 0 1e+21
-576689 492427 334804 0 0 0 1e+21
-The object 1912 has merged
-417734 229599 991876 0 0 0 1e+21
-146270 473612 107259 0 0 0 9.99999e+20
-The object 1915 has merged
-The object 1916 has merged
-208832 448534 949607 0 0 0 9.99999e+20
-The object 1918 has merged
-The object 1919 has merged
-501481 889286 738840 0 0 0 9.99999e+20
-39226.8 28624.3 240294 0 0 0 9.99999e+20
-439847 497718 484326 0 0 0 1e+21
-543402 375659 408234 0 0 0 1e+21
-576551 556163 404372 0 0 0 1e+21
-The object 1925 has merged
-553083 611201 528150 0 0 0 9.99998e+20
-593140 409872 363394 0 0 0 1e+21
-337159 343712 521596 0 0 0 1e+21
-76887.8 71468.5 699861 0 0 0 1e+21
-485575 441953 503141 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1908 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1911 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1917 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1921 has merged
+nan nan nan 0 0 0 1e+21
+The object 1923 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1926 has merged
+The object 1927 has merged
+nan nan nan 0 0 0 1e+21
+The object 1929 has merged
+nan nan nan 0 0 0 1e+21
 The object 1931 has merged
-948913 458777 777356 0 0 0 1e+21
+The object 1932 has merged
 The object 1933 has merged
-The object 1934 has merged
-434410 412517 384383 0 0 0 1e+21
-310177 560631 425556 0 0 0 1e+21
-The object 1937 has merged
-The object 1938 has merged
-481540 518006 491150 0 0 0 1e+21
-187439 872601 763386 0 0 0 1e+21
-492867 491561 473789 0 0 0 1e+21
-412964 950510 848665 0 0 0 9.99999e+20
-473614 520103 541836 0 0 0 1e+21
-519343 461574 543439 0 0 0 9.99999e+20
-461069 539519 488777 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+The object 1935 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 1946 has merged
 The object 1947 has merged
-The object 1948 has merged
-484072 498586 518665 0 0 0 9.99999e+20
-980375 373251 986349 0 0 0 9.99999e+20
-282213 771841 969198 0 0 0 9.99999e+20
-477700 504254 622027 0 0 0 1e+21
-The object 1953 has merged
-406360 453767 541397 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1950 has merged
+The object 1951 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1955 has merged
-701043 138521 735946 0 0 0 1e+21
-589492 790845 842397 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1958 has merged
 The object 1959 has merged
-628511 412369 407895 0 0 0 9.99999e+20
-494680 595964 471333 0 0 0 1e+21
-273382 795005 748035 0 0 0 9.99999e+20
-754512 614417 821494 0 0 0 9.99999e+20
-481909 542718 434271 0 0 0 9.99998e+20
-64681.6 637835 8320.14 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99998e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 1966 has merged
-478625 574717 520957 0 0 0 1e+21
-190001 218556 340079 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1968 has merged
 The object 1969 has merged
 The object 1970 has merged
-The object 1971 has merged
-427403 501846 413836 0 0 0 1e+21
-404998 620904 902218 0 0 0 1e+21
-731441 322321 72524.4 0 0 0 1e+21
-The object 1975 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+The object 1973 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1976 has merged
-The object 1977 has merged
-460062 592225 517546 0 0 0 9.99999e+20
-The object 1979 has merged
-The object 1980 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
+nan nan nan 0 0 0 9.99999e+20
 The object 1981 has merged
-416385 505925 468192 0 0 0 1e+21
-The object 1983 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1984 has merged
-462306 535778 483391 0 0 0 1e+21
-940128 860683 130743 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
 The object 1987 has merged
-499553 644255 459095 0 0 0 1e+21
-The object 1989 has merged
-452936 558397 523534 0 0 0 1e+21
-163628 779923 342463 0 0 0 1e+21
-The object 1992 has merged
-The object 1993 has merged
-The object 1994 has merged
-911136 167436 297183 0 0 0 1e+21
-153471 704924 952168 0 0 0 9.99998e+20
-345980 582298 576275 0 0 0 1e+21
-596257 461650 527074 0 0 0 1e+21
-475703 532284 516047 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 9.99999e+20
+The object 1995 has merged
+The object 1996 has merged
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
+nan nan nan 0 0 0 1e+21
