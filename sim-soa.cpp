@@ -27,7 +27,7 @@ void generateDocuments(string path, object * objects, float size_enclosure, floa
                 }
                 else{
                         file << objects[i].px << " " << objects[i].py <<  " " << objects[i].pz 
-                        <<  " " <<  0 <<  " " << 0 <<  " " << 0
+                        <<  " " <<  objects[i].vx <<  " " << objects[i].vy << " " << objects[i].vz
                         <<  " " << objects[i].mass <<  "\n";
                 }
         }
