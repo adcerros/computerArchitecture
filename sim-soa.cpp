@@ -17,7 +17,7 @@ struct object {
 void generateDocuments(string path, object * objects, float size_enclosure, float time_step, int num_objects){
         ofstream file;
         file.open(path, ofstream::out | ofstream::trunc);
-        file  << size_enclosure << " " << time_step << " " << num_objects <<"\n";
+        file  << fixed << setprecision(3) << size_enclosure << " " << time_step << " " << num_objects <<"\n";
         for(int i = 0; i < num_objects; i++){
                 if (objects[i].exists == false){
                         file << "The object " << i << " has merged" << "\n";
@@ -60,7 +60,7 @@ void resetForces(int num_objects, object * objects, int DIMENSIONS){
 }
 
 void calculateForces(int num_objects, object * objects, int DIMENSIONS){
-        float gConst = 6.674 * (1/pow(10,11));
+        float gConst = 6.674 / pow(10,11);
         //Calculo de fuerzas
         for (int i = 0; i < num_objects - 1; i++){
                 if (objects[i].exists == true) {
