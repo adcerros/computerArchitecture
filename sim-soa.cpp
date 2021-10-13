@@ -34,7 +34,7 @@ void generateDocuments(string path, object * objects, float size_enclosure, floa
 void controlColisions(int num_objects, object * objects){
         for (int i = 0; i < num_objects-1; i++){
                 if (objects[i].exists == true) {
-                        for (int j = i+1; j < num_objects; j++){
+                        for (int j = i + 1; j < num_objects; j++){
                                 if (objects[j].exists == true){
                                         if (objects[i].p[0] == objects[j].p[0] && objects[i].p[1] && objects[j].p[1] 
                                         && objects[i].p[2] && objects[j].p[2]){
@@ -49,6 +49,7 @@ void controlColisions(int num_objects, object * objects){
                 }
         }
 }
+
 
 void resetForces(int num_objects, object * objects, int DIMENSIONS){
                 for (int i = 0; i < num_objects; i++){
@@ -71,8 +72,9 @@ void calculateForces(int num_objects, object * objects, int DIMENSIONS){
                                         }  
                                         float botPart = pow(sqrt(pow(auxVector[0],2) + pow(auxVector[1],2) + pow(auxVector[2],2)),3);  
                                         for (int k = 0; k < 3 ; k++){
-                                                objects[i].f[k]  += (gConst * objects[i].mass * objects[j].mass * auxVector[k])/botPart;  
-                                                objects[j].f[k]  += ((gConst * objects[i].mass * objects[j].mass * auxVector[k])/botPart) * -1;     
+                                                float force = (gConst * objects[i].mass * objects[j].mass * auxVector[k])/botPart; 
+                                                objects[i].f[k]  += force;  
+                                                objects[j].f[k]  += force * -1;     
                                         }
                                 }
                         }
@@ -83,13 +85,11 @@ void calculateForces(int num_objects, object * objects, int DIMENSIONS){
 void calculateParams(int num_objects, object * objects, int DIMENSIONS, float size_enclosure, float time_step){
         // Calculo de velocidades, aceleraciones y posiciones
         for (int i = 0; i < num_objects; i++){
-                //Calculo aceleracion, velocidad y posicion de cada objeto  
+                //Calculo aceleracion, velocidad y posicion de cada objeto  incluyendo colisiones con el contenedor
                 for (int k = 0; k < DIMENSIONS ; k++){
                         objects[i].a[k] = objects[i].f[k]/objects[i].mass;  
                         objects[i].v[k] += objects[i].a[k] * time_step;  
                         objects[i].p[k] += objects[i].v[k] * time_step;
-                }
-                for (int k = 0; k < DIMENSIONS ; k++){
                         if(objects[i].p[k] <= 0){
                                 objects[i].p[k] = 1;
                                 objects[i].v[k] = objects[i].v[k] * -1;
