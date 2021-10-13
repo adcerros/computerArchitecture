@@ -10,11 +10,11 @@ using namespace std;
 //Definicion del objeto
 struct object {
         bool exists;
-        float p[3], v[3], a[3], f[3];
+        double p[3], v[3], a[3], f[3];
         double mass;
 };
 
-void generateDocuments(string path, object * objects, float size_enclosure, float time_step, int num_objects){
+void generateDocuments(string path, object * objects, double size_enclosure, double time_step, int num_objects){
         ofstream file;
         file.open(path, ofstream::out | ofstream::trunc);
         file  << fixed << setprecision(3) << size_enclosure << " " << time_step << " " << num_objects <<"\n";
@@ -60,19 +60,19 @@ void resetForces(int num_objects, object * objects, int DIMENSIONS){
 }
 
 void calculateForces(int num_objects, object * objects, int DIMENSIONS){
-        float gConst = 6.674 / pow(10,11);
+        double gConst = 6.674 / pow(10,11);
         //Calculo de fuerzas
         for (int i = 0; i < num_objects - 1; i++){
                 if (objects[i].exists == true) {
                         for (int j = i + 1; j < num_objects; j++){
                                 if (objects[j].exists == true & i != j){                                              
-                                        float auxVector[3] = {0};
+                                        double auxVector[3] = {0};
                                         for (int k = 0; k < DIMENSIONS; k++){
                                                 auxVector[k] = objects[j].p[k] - objects[i].p[k];
                                         }  
-                                        float botPart = pow(sqrt(pow(auxVector[0],2) + pow(auxVector[1],2) + pow(auxVector[2],2)),3);  
+                                        double botPart = pow(sqrt(pow(auxVector[0],2) + pow(auxVector[1],2) + pow(auxVector[2],2)),3);  
                                         for (int k = 0; k < 3 ; k++){
-                                                float force = (gConst * objects[i].mass * objects[j].mass * auxVector[k])/botPart; 
+                                                double force = (gConst * objects[i].mass * objects[j].mass * auxVector[k])/botPart; 
                                                 objects[i].f[k]  += force;  
                                                 objects[j].f[k]  += force * -1;     
                                         }
@@ -82,7 +82,7 @@ void calculateForces(int num_objects, object * objects, int DIMENSIONS){
         }
 }
 
-void calculateParams(int num_objects, object * objects, int DIMENSIONS, float size_enclosure, float time_step){
+void calculateParams(int num_objects, object * objects, int DIMENSIONS, double size_enclosure, double time_step){
         // Calculo de velocidades, aceleraciones y posiciones
         for (int i = 0; i < num_objects; i++){
                 //Calculo aceleracion, velocidad y posicion de cada objeto  incluyendo colisiones con el contenedor
@@ -119,8 +119,8 @@ int main (int argc, char * argv[]){
         int num_objects = stoi(argv[1]);
         int num_iterations = stoi(argv[2]);
         int random_seed = stoi(argv[3]);
-        float size_enclosure = stof(argv[4]);
-        float time_step = stof(argv[5]);
+        double size_enclosure = stof(argv[4]);
+        double time_step = stof(argv[5]);
         int DIMENSIONS = 3;
         if (num_objects < 0 | num_iterations < 0 | random_seed <= 0 | size_enclosure <= 0 | time_step <= 0){
                 cerr << "sim-soa invoked with " + to_string(numberOfParams) + " parameters.\n";
@@ -129,8 +129,8 @@ int main (int argc, char * argv[]){
         
         // Se generan las condiciones iniciales
         mt19937_64 generator(random_seed);
-        uniform_real_distribution<float> dis_uniform(0.0, size_enclosure);
-        normal_distribution<float> dis_normal(pow(10,21), pow(10,15));
+        uniform_real_distribution<double> dis_uniform(0.0, size_enclosure);
+        normal_distribution<double> dis_normal(pow(10,21), pow(10,15));
         object objects [num_objects];
         for (int i = 0; i < num_objects; i++){
                 for (int k = 0 ; k < DIMENSIONS; k++){
