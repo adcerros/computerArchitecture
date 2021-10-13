@@ -29,7 +29,7 @@ void generateDocuments(string path, object * objects, float size_enclosure, floa
                 }
         }
         file.close();       
-};
+}
 
 void controlColisions(int num_objects, object * objects){
         for (int i = 0; i < num_objects-1; i++){
