@@ -9,8 +9,9 @@
 using namespace std;
 //Definicion del objeto
 struct object {
+        
         bool exists;
-        float p[3], f[3], a[3], v[3]; 
+        float p[3], v[3], a[3], f[3];
         double mass;
 };
 
@@ -108,7 +109,7 @@ void calculateForces(int num_objects, object * objects, float gConst){
                 if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
                                 if (objects[j].exists & (i != j)){                                              
-                                        float auxVector[3];
+                                        float auxVector[3] = {0};
                                         float botPart = 0;
                                         for (int k = 0; k < 3; k++){
                                                 auxVector[k] = objects[j].p[k] - objects[i].p[k];
