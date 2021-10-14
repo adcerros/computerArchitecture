@@ -10,7 +10,10 @@ using namespace std;
 //Definicion del objeto
 struct object {
         bool exists;
-        float p[3], f[3], a[3], v[3]; 
+        float px, py, pz;
+        float fx, fy, fz;
+        float ax, ay, az;
+        float vx, vy, vz;
         double mass;
 };
 
@@ -65,8 +68,8 @@ void generateDocuments(string path, object * objects, float size_enclosure, floa
         file.open(path, ofstream::out | ofstream::trunc);
         file  << fixed << setprecision(3) << size_enclosure << " " << time_step << " " << num_objects <<"\n";
         for(int i = 0; i < num_objects; i++){
-                file << objects[i].p[0] << " " << objects[i].p[1] <<  " " << objects[i].p[2] 
-                <<  " " <<  objects[i].v[0] <<  " " << objects[i].v[1] << " " << objects[i].v[2]
+                file << objects[i].px << " " << objects[i].py <<  " " << objects[i].pz 
+                <<  " " <<  objects[i].vx <<  " " << objects[i].vy << " " << objects[i].vz
                 <<  " " << objects[i].mass <<  "\n";
         }
         file.close();       
@@ -77,13 +80,13 @@ void controlColisions(int num_objects, object * objects){
                 if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
                                 if (objects[j].exists){
-                                        if (objects[i].p[0] == objects[j].p[0] && objects[i].p[1] == objects[j].p[1] 
-                                        && objects[i].p[2] == objects[j].p[2]){
-                                                objects[i].mass += objects[j].mass;
-                                                for (int k = 0; k < 3 ; k++){
-                                                        objects[i].v[k] +=  objects[j].v[k];                                                               
-                                                }
+                                        if (objects[i].px == objects[j].px && objects[i].py == objects[j].py
+                                        && objects[i].pz == objects[j].pz){
                                                 objects[j].exists = false;
+                                                objects[i].vx +=  objects[j].vx;
+                                                objects[i].vy +=  objects[j].vy; 
+                                                objects[i].vz +=  objects[j].vz;  
+                                                objects[i].mass += objects[j].mass;                                                              
                                         }
                                 }
                         }
@@ -95,9 +98,9 @@ void controlColisions(int num_objects, object * objects){
 void resetForces(int num_objects, object * objects){
                 for (int i = 0; i < num_objects; i++){
                         if (objects[i].exists) {
-                                for (int k = 0; k < 3; k++){
-                                        objects[i].f[k] = 0;
-                                }  
+                                objects[i].fx = 0;
+                                objects[i].fy = 0;
+                                objects[i].fz = 0; 
                         }                      
                 }
 }
@@ -108,19 +111,22 @@ void calculateForces(int num_objects, object * objects, float gConst){
                 if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
                                 if (objects[j].exists & (i != j)){                                              
-                                        float auxVector[3];
-                                        float botPart = 0;
-                                        for (int k = 0; k < 3; k++){
-                                                auxVector[k] = objects[j].p[k] - objects[i].p[k];
-                                                botPart += auxVector[k] * auxVector[k]; 
-                                        }
+                                        float auxVectorX = objects[j].px - objects[i].px;
+                                        float auxVectorY = objects[j].py - objects[i].py;
+                                        float auxVectorZ = objects[j].pz - objects[i].pz;
+                                        float botPart = (auxVectorX * auxVectorX) + (auxVectorY * auxVectorY) + (auxVectorZ * auxVectorZ); 
                                         botPart = sqrtf(botPart);
                                         botPart = botPart * botPart * botPart;
-                                        for (int k = 0; k < 3 ; k++){
-                                                float force = (gConst * objects[i].mass * objects[j].mass * auxVector[k])/botPart; 
-                                                objects[i].f[k]  += force;  
-                                                objects[j].f[k]  += -force;     
-                                        }
+                                        float forceX = (gConst * objects[i].mass * objects[j].mass * auxVectorX)/botPart;
+                                        float forceY = (gConst * objects[i].mass * objects[j].mass * auxVectorY)/botPart; 
+                                        float forceZ = (gConst * objects[i].mass * objects[j].mass * auxVectorZ)/botPart;  
+                                        objects[i].fx  += forceX;  
+                                        objects[j].fx  += -forceX;
+                                        objects[i].fy  += forceY;  
+                                        objects[j].fy  += -forceY;  
+                                        objects[i].fz  += forceZ;  
+                                        objects[j].fz  += -forceZ;       
+                                        
                                 }
                         }
                 }
@@ -132,18 +138,38 @@ void calculateParams(int num_objects, object * objects, float size_enclosure, fl
         for (int i = 0; i < num_objects; i++){
                 if (objects[i].exists){
                         //Calculo aceleracion, velocidad y posicion de cada objeto  incluyendo colisiones con el contenedor
-                        for (int k = 0; k < 3 ; k++){
-                                objects[i].a[k] = objects[i].f[k]/objects[i].mass;  
-                                objects[i].v[k] += objects[i].a[k] * time_step;  
-                                objects[i].p[k] += objects[i].v[k] * time_step;
-                                if(objects[i].p[k] <= 0){
-                                        objects[i].p[k] = 1;
-                                        objects[i].v[k] = objects[i].v[k] * -1;
-                                }
-                                else if(objects[i].p[k] >= size_enclosure){
-                                        objects[i].p[k] = size_enclosure;
-                                        objects[i].v[k] = objects[i].v[k] * -1;
-                                }
+                        objects[i].ax = objects[i].fx/objects[i].mass;
+                        objects[i].ay = objects[i].fy/objects[i].mass; 
+                        objects[i].az = objects[i].fz/objects[i].mass; 
+                        objects[i].vx = objects[i].vx  + objects[i].ax * time_step; 
+                        objects[i].vy = objects[i].vy + objects[i].ay * time_step;  
+                        objects[i].vz = objects[i].vz  + objects[i].az * time_step;  
+                        objects[i].px += objects[i].vx * time_step;
+                        objects[i].py += objects[i].vy * time_step;
+                        objects[i].pz += objects[i].vz * time_step;
+                        if(objects[i].px <= 0){
+                                objects[i].px = 1;
+                                objects[i].vx = objects[i].vx * -1;
+                        }
+                        else if(objects[i].px >= size_enclosure){
+                                objects[i].px = size_enclosure;
+                                objects[i].vx = objects[i].vx * -1;
+                        }
+                        if(objects[i].py <= 0){
+                                objects[i].py = 1;
+                                objects[i].vy = objects[i].vy * -1;
+                        }
+                        else if(objects[i].py >= size_enclosure){
+                                objects[i].py = size_enclosure;
+                                objects[i].vy = objects[i].vy * -1;
+                        }
+                        if(objects[i].pz <= 0){
+                                objects[i].pz = 1;
+                                objects[i].vz = objects[i].vz * -1;
+                        }
+                        else if(objects[i].pz >= size_enclosure){
+                                objects[i].pz = size_enclosure;
+                                objects[i].vz = objects[i].vz * -1;
                         }
                 }
         }
@@ -188,12 +214,18 @@ int main (int argc, char * argv[]){
         normal_distribution <float> dis_normal(pow(10,21), pow(10,15));
         object objects [num_objects];
         for (int i = 0; i < num_objects; i++){
-                for (int k = 0 ; k < 3; k++){
-                        objects[i].p[k] = dis_uniform(generator); 
-                        objects[i].v[k] = 0; 
-                        objects[i].a[k] = 0; 
-                        objects[i].f[k] = 0; 
-                }
+                objects[i].px = dis_uniform(generator); 
+                objects[i].py = dis_uniform(generator); 
+                objects[i].pz = dis_uniform(generator); 
+                objects[i].fx = 0; 
+                objects[i].fy = 0; 
+                objects[i].fz = 0;
+                objects[i].ax = 0; 
+                objects[i].ay = 0; 
+                objects[i].az = 0;  
+                objects[i].vx = 0; 
+                objects[i].vy = 0; 
+                objects[i].vz = 0; 
                 objects[i].mass = dis_normal(generator);
                 objects[i].exists = true;
         }

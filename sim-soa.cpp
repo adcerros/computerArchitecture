@@ -6,10 +6,10 @@
 #include <random>
 #include <sys/time.h>
 
+// Un struct con arrays p[500][3], v[500],[3].... o con [500][14]
 using namespace std;
 //Definicion del objeto
 struct object {
-        
         bool exists;
         float p[3], v[3], a[3], f[3];
         double mass;
