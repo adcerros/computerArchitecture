@@ -10,7 +10,7 @@ using namespace std;
 //Definicion del objeto
 struct object {
         bool exists;
-        double p[3], v[3], a[3], f[3];
+        float p[3], v[3], a[3], f[3];
         double mass;
 };
 
@@ -74,9 +74,9 @@ void generateDocuments(string path, object * objects, float size_enclosure, floa
 
 void controlColisions(int num_objects, object * objects){
         for (int i = 0; i < num_objects-1; i++){
-                if (objects[i].exists == true) {
+                if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
-                                if (objects[j].exists == true){
+                                if (objects[j].exists){
                                         if (objects[i].p[0] == objects[j].p[0] && objects[i].p[1] == objects[j].p[1] 
                                         && objects[i].p[2] == objects[j].p[2]){
                                                 objects[i].mass += objects[j].mass;
@@ -94,7 +94,7 @@ void controlColisions(int num_objects, object * objects){
 
 void resetForces(int num_objects, object * objects){
                 for (int i = 0; i < num_objects; i++){
-                        if (objects[i].exists == true) {
+                        if (objects[i].exists) {
                                 for (int k = 0; k < 3; k++){
                                         objects[i].f[k] = 0;
                                 }  
@@ -102,24 +102,24 @@ void resetForces(int num_objects, object * objects){
                 }
 }
 
-void calculateForces(int num_objects, object * objects, double gConst){
+void calculateForces(int num_objects, object * objects, float gConst){
         //Calculo de fuerzas
         for (int i = 0; i < num_objects - 1; i++){
-                if (objects[i].exists == true) {
+                if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
-                                if (objects[j].exists == true & i != j){                                              
-                                        double auxVector[3] = {0};
-                                        double botPart = 0;
+                                if (objects[j].exists & (i != j)){                                              
+                                        float auxVector[3] = {0};
+                                        float botPart = 0;
                                         for (int k = 0; k < 3; k++){
                                                 auxVector[k] = objects[j].p[k] - objects[i].p[k];
                                                 botPart += auxVector[k] * auxVector[k]; 
                                         }
-                                        botPart = sqrt(botPart);
+                                        botPart = sqrtf(botPart);
                                         botPart = botPart * botPart * botPart;
                                         for (int k = 0; k < 3 ; k++){
-                                                double force = (gConst * objects[i].mass * objects[j].mass * auxVector[k])/botPart; 
+                                                float force = (gConst * objects[i].mass * objects[j].mass * auxVector[k])/botPart; 
                                                 objects[i].f[k]  += force;  
-                                                objects[j].f[k]  += force * -1;     
+                                                objects[j].f[k]  += -force;     
                                         }
                                 }
                         }
@@ -130,7 +130,7 @@ void calculateForces(int num_objects, object * objects, double gConst){
 void calculateParams(int num_objects, object * objects, float size_enclosure, float time_step){
         // Calculo de velocidades, aceleraciones y posiciones
         for (int i = 0; i < num_objects; i++){
-                if (objects[i].exists == true){
+                if (objects[i].exists){
                         //Calculo aceleracion, velocidad y posicion de cada objeto  incluyendo colisiones con el contenedor
                         for (int k = 0; k < 3 ; k++){
                                 objects[i].a[k] = objects[i].f[k]/objects[i].mass;  
@@ -150,7 +150,7 @@ void calculateParams(int num_objects, object * objects, float size_enclosure, fl
 }
 
 void iterate(int num_objects, object * objects, float size_enclosure, float time_step, int num_iterations){
-        static double gConst = 6.674 / pow(10,11);
+        static float gConst = 6.674 / pow(10,11);
         for (int iteration = 0; iteration < num_iterations; iteration++){
                 // Se reinicializan las fuerzas a 0
                 resetForces(num_objects, objects);
@@ -184,8 +184,8 @@ int main (int argc, char * argv[]){
         }
         // Se generan las condiciones iniciales
         mt19937_64 generator(random_seed);
-        uniform_real_distribution <double> dis_uniform(0.0, size_enclosure);
-        normal_distribution <double> dis_normal(pow(10,21), pow(10,15));
+        uniform_real_distribution <float> dis_uniform(0.0, size_enclosure);
+        normal_distribution <float> dis_normal(pow(10,21), pow(10,15));
         object objects [num_objects];
         for (int i = 0; i < num_objects; i++){
                 for (int k = 0 ; k < 3; k++){
