@@ -176,7 +176,7 @@ void calculateParams(int num_objects, object * objects, double size_enclosure, d
 }
 
 void iterate(int num_objects, object * objects, double size_enclosure, double time_step, int num_iterations){
-        static double gConst = 6.674 / pow(10,11);
+        static double gConst = 6.674 / 10E11;
         for (int iteration = 0; iteration < num_iterations; iteration++){
                 // Se reinicializan las fuerzas a 0
                 resetForces(num_objects, objects);
@@ -211,7 +211,7 @@ int main (int argc, char * argv[]){
         // Se generan las condiciones iniciales
         mt19937_64 generator(random_seed);
         uniform_real_distribution <double> dis_uniform(0.0, size_enclosure);
-        normal_distribution <double> dis_normal(pow(10,21), pow(10,15));
+        normal_distribution <double> dis_normal(10E21, 10E15);
         object objects [num_objects];
         for (int i = 0; i < num_objects; i++){
                 objects[i].px = dis_uniform(generator); 

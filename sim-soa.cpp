@@ -10,12 +10,12 @@
 using namespace std;
 //Definicion del objeto
 struct object {
-        bool * exists;
-        double ** f;
-        double ** p;
-        double ** v;
-        double ** a;
-        double * mass;
+        bool ** exists;
+        double *** f;
+        double *** p;
+        double *** v;
+        double *** a;
+        double ** mass;
 };
 
 
@@ -70,25 +70,25 @@ void generateDocuments(string path, object objects, double size_enclosure, doubl
         file.open(path, ofstream::out | ofstream::trunc);
         file  << fixed << setprecision(3) << size_enclosure << " " << time_step << " " << num_objects <<"\n";
         for(int i = 0; i < num_objects; i++){
-                file << objects.p[i][0] << " " << objects.p[i][1] <<  " " << objects.p[i][2] 
-                <<  " " <<  objects.v[i][0] <<  " " << objects.v[i][1] << " " << objects.v[i][2]
-                <<  " " << objects.mass[i] <<  "\n";
+                file << *objects.p[i][0] << " " << *objects.p[i][1] <<  " " << *objects.p[i][2] 
+                <<  " " <<  *objects.v[i][0] <<  " " << *objects.v[i][1] << " " << *objects.v[i][2]
+                <<  " " << *objects.mass[i] <<  "\n";
         }
         file.close();       
 }
 
 void controlColisions(int num_objects, object objects){
         for (int i = 0; i < num_objects-1; i++){
-                if (objects.exists[i]) {
+                if (*objects.exists[i]) {
                         for (int j = i + 1; j < num_objects; j++){
-                                if (objects.exists[j]){
-                                        if (objects.p[i][0] == objects.p[j][0] && objects.p[i][1] == objects.p[j][1] 
-                                        && objects.p[i][2] == objects.p[j][2]){
-                                                objects.mass[i] += objects.mass[j];
+                                if (*objects.exists[j]){
+                                        if (*objects.p[i][0] == *objects.p[j][0] && *objects.p[i][1] == *objects.p[j][1] 
+                                        && *objects.p[i][2] == *objects.p[j][2]){
+                                                *objects.mass[i] += *objects.mass[j];
                                                 for (int k = 0; k < 3 ; k++){
-                                                        objects.v[i][k] +=  objects.v[j][k];                                                               
+                                                        *objects.v[i][k] +=  *objects.v[j][k];                                                               
                                                 }
-                                                objects.exists[j] = false;
+                                                *objects.exists[j] = false;
                                         }
                                 }
                         }
@@ -99,9 +99,9 @@ void controlColisions(int num_objects, object objects){
 
 void resetForces(int num_objects, object  objects){
                 for (int i = 0; i < num_objects; i++){
-                        if (objects.exists[i] == true) {
+                        if (*objects.exists[i] == true) {
                                 for (int k = 0; k < 3; k++){
-                                        objects.f[i][k] = 0;
+                                        *objects.f[i][k] = 0;
                                 }  
                         }                      
                 }
@@ -110,21 +110,21 @@ void resetForces(int num_objects, object  objects){
 void calculateForces(int num_objects, object  objects, double gConst){
         //Calculo de fuerzas
         for (int i = 0; i < num_objects - 1; i++){
-                if (objects.exists[i]) {
+                if (*objects.exists[i]) {
                         for (int j = i + 1; j < num_objects; j++){
-                                if (objects.exists[j] & (i != j)){                                              
+                                if (*objects.exists[j] & (i != j)){                                              
                                         double auxVector[3] = {0};
                                         double botPart = 0;
                                         for (int k = 0; k < 3; k++){
-                                                auxVector[k] = objects.p[j][k] - objects.p[i][k];
+                                                auxVector[k] = *objects.p[j][k] - *objects.p[i][k];
                                                 botPart += auxVector[k] * auxVector[k]; 
                                         }
                                         botPart = sqrtf(botPart);
                                         botPart = botPart * botPart * botPart;
                                         for (int k = 0; k < 3 ; k++){
-                                                double force = (gConst * objects.mass[i] * objects.mass[j] * auxVector[k])/botPart; 
-                                                objects.f[i][k]  += force;  
-                                                objects.f[j][k]  += -force;     
+                                                double force = (gConst * *objects.mass[i] * *objects.mass[j] * auxVector[k])/botPart; 
+                                                *objects.f[i][k]  += force;  
+                                                *objects.f[j][k]  += -force;     
                                         }
                                 }
                         }
@@ -135,19 +135,19 @@ void calculateForces(int num_objects, object  objects, double gConst){
 void calculateParams(int num_objects, object  objects, double size_enclosure, double time_step){
         // Calculo de velocidades, aceleraciones y posiciones
         for (int i = 0; i < num_objects; i++){
-                if (objects.exists[i]){
+                if (*objects.exists[i]){
                         //Calculo aceleracion, velocidad y posicion de cada objeto  incluyendo colisiones con el contenedor
                         for (int k = 0; k < 3 ; k++){
-                                objects.a[i][k] = objects.f[i][k]/objects.mass[i];  
-                                objects.v[i][k] += objects.a[i][k] * time_step;  
-                                objects.p[i][k] += objects.v[i][k] * time_step;
-                                if(objects.p[i][k] <= 0){
-                                        objects.p[i][k] = 1;
-                                        objects.v[i][k] = objects.v[i][k] * -1;
+                                *objects.a[i][k] = *objects.f[i][k]/ *objects.mass[i];  
+                                *objects.v[i][k] += *objects.a[i][k] * time_step;  
+                                *objects.p[i][k] += *objects.v[i][k] * time_step;
+                                if(*objects.p[i][k] <= 0){
+                                        *objects.p[i][k] = 1;
+                                        *objects.v[i][k] = *objects.v[i][k] * -1;
                                 }
-                                else if(objects.p[i][k] >= size_enclosure){
-                                        objects.p[i][k] = size_enclosure;
-                                        objects.v[i][k] = objects.v[i][k] * -1;
+                                else if(*objects.p[i][k] >= size_enclosure){
+                                        *objects.p[i][k] = size_enclosure;
+                                        *objects.v[i][k] = *objects.v[i][k] * -1;
                                 }
                         }
                 }
@@ -155,7 +155,7 @@ void calculateParams(int num_objects, object  objects, double size_enclosure, do
 }
 
 void iterate(int num_objects, object  objects, double size_enclosure, double time_step, int num_iterations){
-        static double gConst = 6.674 / pow(10,11);
+        static double gConst = 6.674 / 10E11;
         for (int iteration = 0; iteration < num_iterations; iteration++){
                 // Se reinicializan las fuerzas a 0
                 resetForces(num_objects, objects);
@@ -190,25 +190,25 @@ int main (int argc, char * argv[]){
         // Se generan las condiciones iniciales
         mt19937_64 generator(random_seed);
         uniform_real_distribution <double> dis_uniform(0.0, size_enclosure);
-        normal_distribution <double> dis_normal(pow(10,21), pow(10,15));
+        normal_distribution <double> dis_normal(10E21, 10E15);
         object objects;
-        bool * exists = (bool*) malloc (num_objects * sizeof(bool));
-        objects.p = (double**) malloc (num_objects * 3 * sizeof(double));
-        objects.f = (double**) malloc (num_objects * 3 * sizeof(double));
-        objects.a = (double**) malloc (num_objects * 3 * sizeof(double));
-        objects.v = (double**) malloc (num_objects * 3 * sizeof(double));
-        objects.mass = (double*) malloc (num_objects * sizeof(double));
+        objects.exists = (bool**) malloc (num_objects * sizeof(bool));
+        objects.p = (double***) malloc (num_objects * 3 * sizeof(double));
+        objects.f = (double***) malloc (num_objects * 3 * sizeof(double));
+        objects.a = (double***) malloc (num_objects * 3 * sizeof(double));
+        objects.v = (double***) malloc (num_objects * 3 * sizeof(double));
+        objects.mass = (double**) malloc (num_objects * sizeof(double));
         cout << "funciona1\n";
-        cout << "funciona2" << objects.p[0];
+        cout << "funciona2" << *objects.p[0];
         for (int i = 0; i < num_objects; i++){
                 for (int k = 0 ; k < 3; k++){
-                        objects.p[i][k] = dis_uniform(generator); 
-                        objects.v[i][k] = 0; 
-                        objects.a[i][k] = 0; 
-                        objects.f[i][k] = 0; 
+                        *objects.p[i][k] = dis_uniform(generator); 
+                        *objects.v[i][k] = 0; 
+                        *objects.a[i][k] = 0; 
+                        *objects.f[i][k] = 0; 
                 }
-                objects.mass[i] = dis_normal(generator);
-                objects.exists[i] = true;
+                *objects.mass[i] = dis_normal(generator);
+                *objects.exists[i] = true;
         }
         cout << "funciona3\n";
         // Se generan el documento de la configuracion inicial
