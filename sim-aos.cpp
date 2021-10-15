@@ -10,10 +10,10 @@ using namespace std;
 //Definicion del objeto
 struct object {
         bool exists;
-        float px, py, pz;
-        float fx, fy, fz;
-        float ax, ay, az;
-        float vx, vy, vz;
+        double px, py, pz;
+        double fx, fy, fz;
+        double ax, ay, az;
+        double vx, vy, vz;
         double mass;
 };
 
@@ -36,7 +36,7 @@ int checkNumberOfParams (int argc, char * argv[], int numberOfParams){
         return 0;
 }
 
-int checkParams(int num_objects, int num_iterations, int random_seed, float size_enclosure, float time_step, int numberOfParams){
+int checkParams(int num_objects, int num_iterations, int random_seed, double size_enclosure, double time_step, int numberOfParams){
         if (num_objects < 0 | num_iterations < 0 | random_seed <= 0 | size_enclosure <= 0 | time_step <= 0){
                 if (num_objects <= 0){
                         cerr << "Error: Invalid number of objects\n";
@@ -63,7 +63,7 @@ int checkParams(int num_objects, int num_iterations, int random_seed, float size
         return 0;
 }
 
-void generateDocuments(string path, object * objects, float size_enclosure, float time_step, int num_objects){
+void generateDocuments(string path, object * objects, double size_enclosure, double time_step, int num_objects){
         ofstream file;
         file.open(path, ofstream::out | ofstream::trunc);
         file  << fixed << setprecision(3) << size_enclosure << " " << time_step << " " << num_objects <<"\n";
@@ -105,21 +105,21 @@ void resetForces(int num_objects, object * objects){
                 }
 }
 
-void calculateForces(int num_objects, object * objects, float gConst){
+void calculateForces(int num_objects, object * objects, double gConst){
         //Calculo de fuerzas
         for (int i = 0; i < num_objects - 1; i++){
                 if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
                                 if (objects[j].exists & (i != j)){                                              
-                                        float auxVectorX = objects[j].px - objects[i].px;
-                                        float auxVectorY = objects[j].py - objects[i].py;
-                                        float auxVectorZ = objects[j].pz - objects[i].pz;
-                                        float botPart = (auxVectorX * auxVectorX) + (auxVectorY * auxVectorY) + (auxVectorZ * auxVectorZ); 
+                                        double auxVectorX = objects[j].px - objects[i].px;
+                                        double auxVectorY = objects[j].py - objects[i].py;
+                                        double auxVectorZ = objects[j].pz - objects[i].pz;
+                                        double botPart = (auxVectorX * auxVectorX) + (auxVectorY * auxVectorY) + (auxVectorZ * auxVectorZ); 
                                         botPart = sqrtf(botPart);
                                         botPart = botPart * botPart * botPart;
-                                        float forceX = (gConst * objects[i].mass * objects[j].mass * auxVectorX)/botPart;
-                                        float forceY = (gConst * objects[i].mass * objects[j].mass * auxVectorY)/botPart; 
-                                        float forceZ = (gConst * objects[i].mass * objects[j].mass * auxVectorZ)/botPart;  
+                                        double forceX = (gConst * objects[i].mass * objects[j].mass * auxVectorX)/botPart;
+                                        double forceY = (gConst * objects[i].mass * objects[j].mass * auxVectorY)/botPart; 
+                                        double forceZ = (gConst * objects[i].mass * objects[j].mass * auxVectorZ)/botPart;  
                                         objects[i].fx  += forceX;  
                                         objects[j].fx  += -forceX;
                                         objects[i].fy  += forceY;  
@@ -133,7 +133,7 @@ void calculateForces(int num_objects, object * objects, float gConst){
         }
 }
 
-void calculateParams(int num_objects, object * objects, float size_enclosure, float time_step){
+void calculateParams(int num_objects, object * objects, double size_enclosure, double time_step){
         // Calculo de velocidades, aceleraciones y posiciones
         for (int i = 0; i < num_objects; i++){
                 if (objects[i].exists){
@@ -175,8 +175,8 @@ void calculateParams(int num_objects, object * objects, float size_enclosure, fl
         }
 }
 
-void iterate(int num_objects, object * objects, float size_enclosure, float time_step, int num_iterations){
-        static float gConst = 6.674 / pow(10,11);
+void iterate(int num_objects, object * objects, double size_enclosure, double time_step, int num_iterations){
+        static double gConst = 6.674 / pow(10,11);
         for (int iteration = 0; iteration < num_iterations; iteration++){
                 // Se reinicializan las fuerzas a 0
                 resetForces(num_objects, objects);
@@ -203,15 +203,15 @@ int main (int argc, char * argv[]){
         int num_objects = stoi(argv[1]);
         int num_iterations = stoi(argv[2]);
         int random_seed = stoi(argv[3]);
-        float size_enclosure = stof(argv[4]);
-        float time_step = stof(argv[5]);
+        double size_enclosure = stof(argv[4]);
+        double time_step = stof(argv[5]);
         if (checkParams(num_objects, num_iterations, random_seed, size_enclosure, time_step, numberOfParams) == -1){
                 return -2;
         }
         // Se generan las condiciones iniciales
         mt19937_64 generator(random_seed);
-        uniform_real_distribution <float> dis_uniform(0.0, size_enclosure);
-        normal_distribution <float> dis_normal(pow(10,21), pow(10,15));
+        uniform_real_distribution <double> dis_uniform(0.0, size_enclosure);
+        normal_distribution <double> dis_normal(pow(10,21), pow(10,15));
         object objects [num_objects];
         for (int i = 0; i < num_objects; i++){
                 objects[i].px = dis_uniform(generator); 
