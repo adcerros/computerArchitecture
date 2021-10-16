@@ -11,10 +11,10 @@ using namespace std;
 //Definicion del objeto
 struct object {
         bool * exists;
-        double ** f;
         double ** p;
-        double ** v;
+        double ** f;
         double ** a;
+        double ** v;
         double * mass;
 };
 
@@ -82,13 +82,13 @@ void controlColisions(int num_objects, object objects){
                 if (objects.exists[i]) {
                         for (int j = i + 1; j < num_objects; j++){
                                 if (objects.exists[j]){
-                                        if (objects.p[i][0] == objects.p[j][0] & objects.p[i][1] == objects.p[j][1] 
-                                        & objects.p[i][2] == objects.p[j][2]){
-                                         objects.mass[i] +=  objects.mass[j];
-                                                for (int k = 0; k < 3 ; k++){
-                                                        objects.v[i][k] +=  objects.v[j][k];                                                               
-                                                }
-                                                objects.exists[j] = false;
+                                        if (objects.p[i][0] == objects.p[j][0] && objects.p[i][1] == objects.p[j][1] 
+                                        && objects.p[i][2] == objects.p[j][2]){
+                                        objects.mass[i] +=  objects.mass[j];
+                                        objects.v[i][0] +=  objects.v[j][0];
+                                        objects.v[i][1] +=  objects.v[j][1];
+                                        objects.v[i][2] +=  objects.v[j][2];                                                               
+                                        objects.exists[j] = false;
                                         }
                                 }
                         }
@@ -99,9 +99,9 @@ void controlColisions(int num_objects, object objects){
 void resetForces(int num_objects, object  objects){
                 for (int i = 0; i < num_objects; i++){
                         if (objects.exists[i] == true) {
-                                for (int k = 0; k < 3; k++){
-                                        objects.f[i][k] = 0;
-                                }  
+                                objects.f[i][0] = 0;
+                                objects.f[i][1] = 0;
+                                objects.f[i][2] = 0;
                         }                      
                 }
 }
@@ -111,20 +111,22 @@ void calculateForces(int num_objects, object  objects, double gConst){
         for (int i = 0; i < num_objects - 1; i++){
                 if (objects.exists[i]) {
                         for (int j = i + 1; j < num_objects; j++){
-                                if (objects.exists[j] & (i != j)){                                              
-                                        double auxVector[3] = {0};
-                                        double botPart = 0;
-                                        for (int k = 0; k < 3; k++){
-                                                auxVector[k] = objects.p[j][k] - objects.p[i][k];
-                                                botPart += auxVector[k] * auxVector[k]; 
-                                        }
+                                if (objects.exists[j] && (i != j)){                                              
+                                        double auxVectorX = objects.p[j][0] - objects.p[i][0];
+                                        double auxVectorY = objects.p[j][1] - objects.p[i][1];
+                                        double auxVectorZ = objects.p[j][2] - objects.p[i][2];
+                                        double botPart = (auxVectorX * auxVectorX) + (auxVectorY * auxVectorY) + (auxVectorZ * auxVectorZ); 
                                         botPart = sqrt(botPart);
                                         botPart = botPart * botPart * botPart;
-                                        for (int k = 0; k < 3 ; k++){
-                                                double force = (gConst * objects.mass[i] *  objects.mass[j] * auxVector[k])/botPart; 
-                                                objects.f[i][k]  += force;  
-                                                objects.f[j][k]  += -force;     
-                                        }
+                                        double forceX = (gConst * objects.mass[i] *  objects.mass[j] * auxVectorX)/botPart; 
+                                        double forceY = (gConst * objects.mass[i] *  objects.mass[j] * auxVectorY)/botPart; 
+                                        double forceZ = (gConst * objects.mass[i] *  objects.mass[j] * auxVectorZ)/botPart; 
+                                        objects.f[i][0]  += forceX; 
+                                        objects.f[i][1]  += forceY;  
+                                        objects.f[i][2]  += forceZ;   
+                                        objects.f[j][0]  += -forceX; 
+                                        objects.f[j][1]  += -forceY; 
+                                        objects.f[j][2]  += -forceZ;                      
                                 }
                         }
                 }
@@ -136,18 +138,38 @@ void calculateParams(int num_objects, object  objects, double size_enclosure, do
         for (int i = 0; i < num_objects; i++){
                 if (objects.exists[i]){
                         //Calculo aceleracion, velocidad y posicion de cada objeto  incluyendo colisiones con el contenedor
-                        for (int k = 0; k < 3 ; k++){
-                                objects.a[i][k] = objects.f[i][k] / ( objects.mass[i]);  
-                                objects.v[i][k] += objects.a[i][k] * time_step;  
-                                objects.p[i][k] += objects.v[i][k] * time_step;
-                                if(objects.p[i][k] <= 0){
-                                        objects.p[i][k] = 0;
-                                        objects.v[i][k] = objects.v[i][k] * -1;
-                                }
-                                else if(objects.p[i][k] >= size_enclosure){
-                                        objects.p[i][k] = size_enclosure;
-                                        objects.v[i][k] = objects.v[i][k] * -1;
-                                }
+                        objects.a[i][0] = objects.f[i][0] / objects.mass[i];
+                        objects.a[i][1] = objects.f[i][1] / objects.mass[i];  
+                        objects.a[i][2] = objects.f[i][2] / objects.mass[i];    
+                        objects.v[i][0] += time_step * objects.a[i][0];
+                        objects.v[i][1] += time_step * objects.a[i][1]; 
+                        objects.v[i][2] += time_step * objects.a[i][2];   
+                        objects.p[i][0] += time_step * objects.v[i][0];
+                        objects.p[i][1] += time_step * objects.v[i][1];
+                        objects.p[i][2] += time_step * objects.v[i][2];
+                        if(objects.p[i][0] <= 0){
+                                objects.p[i][0] = 0;
+                                objects.v[i][0] = objects.v[i][0] * -1;
+                        }
+                        else if(objects.p[i][0] >= size_enclosure){
+                                objects.p[i][0] = size_enclosure;
+                                objects.v[i][0] = objects.v[i][0] * -1;
+                        }
+                        if(objects.p[i][1] <= 0){
+                                objects.p[i][1] = 0;
+                                objects.v[i][1] = objects.v[i][1] * -1;
+                        }
+                        else if(objects.p[i][1] >= size_enclosure){
+                                objects.p[i][1] = size_enclosure;
+                                objects.v[i][1] = objects.v[i][1] * -1;
+                        }
+                        if(objects.p[i][2] <= 0){
+                                objects.p[i][2] = 0;
+                                objects.v[i][2] = objects.v[i][2] * -1;
+                        }
+                        else if(objects.p[i][2] >= size_enclosure){
+                                objects.p[i][2] = size_enclosure;
+                                objects.v[i][2] = objects.v[i][2] * -1;
                         }
                 }
         }
@@ -204,13 +226,19 @@ int main (int argc, char * argv[]){
         }
         objects.mass = new double[num_objects];
         for (int i = 0; i < num_objects; i++){
-                for (int k = 0 ; k < 3; k++){
-                        objects.p[i][k] = dis_uniform(generator); 
-                        objects.v[i][k] = 0; 
-                        objects.a[i][k] = 0; 
-                        objects.f[i][k] = 0; 
-                }
-                 objects.mass[i] = dis_normal(generator);
+                objects.p[i][0] = dis_uniform(generator); 
+                objects.p[i][1] = dis_uniform(generator); 
+                objects.p[i][2] = dis_uniform(generator); 
+                objects.v[i][0] = 0; 
+                objects.v[i][1] = 0; 
+                objects.v[i][2] = 0; 
+                objects.a[i][0] = 0; 
+                objects.a[i][1] = 0; 
+                objects.a[i][2] = 0; 
+                objects.f[i][0] = 0; 
+                objects.f[i][1] = 0; 
+                objects.f[i][2] = 0; 
+                objects.mass[i] = dis_normal(generator);
                 objects.exists[i] = true;
         }
         // Se generan el documento de la configuracion inicial
@@ -224,7 +252,7 @@ int main (int argc, char * argv[]){
 
         // Se generan el documento de la configuracion final
         generateDocuments("./final_config_soa.txt", objects, size_enclosure, time_step, num_objects);
-        
+
         // Calculo del tiempo de ejecucion
         struct timeval end;
         gettimeofday(&end, NULL);
