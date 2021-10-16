@@ -141,7 +141,7 @@ void calculateParams(int num_objects, object  objects, double size_enclosure, do
                                 objects.v[i][k] += objects.a[i][k] * time_step;  
                                 objects.p[i][k] += objects.v[i][k] * time_step;
                                 if(objects.p[i][k] <= 0){
-                                        objects.p[i][k] = 1;
+                                        objects.p[i][k] = 0;
                                         objects.v[i][k] = objects.v[i][k] * -1;
                                 }
                                 else if(objects.p[i][k] >= size_enclosure){
