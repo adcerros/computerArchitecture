@@ -147,26 +147,26 @@ void calculateParams(int num_objects, object * objects, double size_enclosure, d
                         objects[i].py += time_step * objects[i].vy;
                         objects[i].pz += time_step * objects[i].vz;
                         if(objects[i].px <= 0){
-                                objects[i].px = 1;
+                                objects[i].px = 0;
                                 objects[i].vx = objects[i].vx * -1;
                         }
-                        if(objects[i].py <= 0){
-                                objects[i].py = 1;
-                                objects[i].vy = objects[i].vy * -1;
-                        }
-                        if(objects[i].pz <= 0){
-                                objects[i].pz = 1;
-                                objects[i].vz = objects[i].vz * -1;
-                        }
-                        if(objects[i].px >= size_enclosure){
+                        else if(objects[i].px >= size_enclosure){
                                 objects[i].px = size_enclosure;
                                 objects[i].vx = objects[i].vx * -1;
                         }
-                        if(objects[i].py >= size_enclosure){
+                        if(objects[i].py <= 0){
+                                objects[i].py = 0;
+                                objects[i].vy = objects[i].vy * -1;
+                        }
+                        else if(objects[i].py >= size_enclosure){
                                 objects[i].py = size_enclosure;
                                 objects[i].vy = objects[i].vy * -1;
                         }
-                        if(objects[i].pz >= size_enclosure){
+                        if(objects[i].pz <= 0){
+                                objects[i].pz = 0;
+                                objects[i].vz = objects[i].vz * -1;
+                        }
+                        else if(objects[i].pz >= size_enclosure){
                                 objects[i].pz = size_enclosure;
                                 objects[i].vz = objects[i].vz * -1;
                         }
@@ -213,6 +213,7 @@ int main (int argc, char * argv[]){
         normal_distribution <double> dis_normal(10E21, 10E15);
         object objects [num_objects];
         for (int i = 0; i < num_objects; i++){
+                objects[i].exists = true;
                 objects[i].px = dis_uniform(generator); 
                 objects[i].py = dis_uniform(generator); 
                 objects[i].pz = dis_uniform(generator); 
@@ -226,7 +227,6 @@ int main (int argc, char * argv[]){
                 objects[i].vx = 0; 
                 objects[i].vy = 0; 
                 objects[i].vz = 0; 
-                objects[i].exists = true;
         }  
         // Se generan el documento de la configuracion inicial
         generateDocuments("./init_config_aos.txt", objects, size_enclosure, time_step, num_objects);
