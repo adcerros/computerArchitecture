@@ -80,13 +80,13 @@ void controlColisions(int num_objects, object * objects){
                 if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
                                 if (objects[j].exists){
-                                        if (objects[i].px == objects[j].px & objects[i].py == objects[j].py
-                                        & objects[i].pz == objects[j].pz){
+                                        if (objects[i].px == objects[j].px && objects[i].py == objects[j].py
+                                        && objects[i].pz == objects[j].pz){
                                                 objects[j].exists = false;
-                                                objects[i].vx =  objects[j].vx + objects[i].vx;
-                                                objects[i].vy =  objects[j].vy + objects[i].vy; 
-                                                objects[i].vz =  objects[j].vz + objects[i].vz;  
-                                                objects[i].mass = objects[j].mass + objects[i].mass;                                                              
+                                                objects[i].vx +=  objects[j].vx;
+                                                objects[i].vy +=  objects[j].vy; 
+                                                objects[i].vz +=  objects[j].vz;  
+                                                objects[i].mass += objects[j].mass;                                                              
                                         }
                                 }
                         }
@@ -110,7 +110,7 @@ void calculateForces(int num_objects, object * objects, double gConst){
         for (int i = 0; i < num_objects - 1; i++){
                 if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
-                                if (objects[j].exists & (i != j)){                                              
+                                if (objects[j].exists && (i != j)){                                              
                                         double auxVectorX = objects[j].px - objects[i].px;
                                         double auxVectorY = objects[j].py - objects[i].py;
                                         double auxVectorZ = objects[j].pz - objects[i].pz;
@@ -140,9 +140,9 @@ void calculateParams(int num_objects, object * objects, double size_enclosure, d
                         objects[i].ax = objects[i].fx/objects[i].mass;
                         objects[i].ay = objects[i].fy/objects[i].mass; 
                         objects[i].az = objects[i].fz/objects[i].mass; 
-                        objects[i].vx = objects[i].vx  + time_step * objects[i].ax; 
-                        objects[i].vy = objects[i].vy + time_step * objects[i].ay;  
-                        objects[i].vz = objects[i].vz  + time_step * objects[i].az; 
+                        objects[i].vx += time_step * objects[i].ax; 
+                        objects[i].vy += time_step * objects[i].ay;  
+                        objects[i].vz += time_step * objects[i].az; 
                         objects[i].px += time_step * objects[i].vx;
                         objects[i].py += time_step * objects[i].vy;
                         objects[i].pz += time_step * objects[i].vz;
