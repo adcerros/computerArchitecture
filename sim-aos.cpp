@@ -80,13 +80,13 @@ void controlColisions(int num_objects, object * objects){
                 if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
                                 if (objects[j].exists){
-                                        if (objects[i].px == objects[j].px && objects[i].py == objects[j].py
-                                        && objects[i].pz == objects[j].pz){
+                                        if (objects[i].px == objects[j].px & objects[i].py == objects[j].py
+                                        & objects[i].pz == objects[j].pz){
                                                 objects[j].exists = false;
-                                                objects[i].vx +=  objects[j].vx;
-                                                objects[i].vy +=  objects[j].vy; 
-                                                objects[i].vz +=  objects[j].vz;  
-                                                objects[i].mass += objects[j].mass;                                                              
+                                                objects[i].vx =  objects[j].vx + objects[i].vx;
+                                                objects[i].vy =  objects[j].vy + objects[i].vy; 
+                                                objects[i].vz =  objects[j].vz + objects[i].vz;  
+                                                objects[i].mass = objects[j].mass + objects[i].mass;                                                              
                                         }
                                 }
                         }
@@ -115,18 +115,17 @@ void calculateForces(int num_objects, object * objects, double gConst){
                                         double auxVectorY = objects[j].py - objects[i].py;
                                         double auxVectorZ = objects[j].pz - objects[i].pz;
                                         double botPart = (auxVectorX * auxVectorX) + (auxVectorY * auxVectorY) + (auxVectorZ * auxVectorZ); 
-                                        botPart = sqrtf(botPart);
+                                        botPart = sqrt(botPart);
                                         botPart = botPart * botPart * botPart;
                                         double forceX = (gConst * objects[i].mass * objects[j].mass * auxVectorX)/botPart;
                                         double forceY = (gConst * objects[i].mass * objects[j].mass * auxVectorY)/botPart; 
                                         double forceZ = (gConst * objects[i].mass * objects[j].mass * auxVectorZ)/botPart;  
                                         objects[i].fx  += forceX;  
+                                        objects[i].fy  += forceY;                                           
+                                        objects[i].fz  += forceZ;
                                         objects[j].fx  += -forceX;
-                                        objects[i].fy  += forceY;  
                                         objects[j].fy  += -forceY;  
-                                        objects[i].fz  += forceZ;  
-                                        objects[j].fz  += -forceZ;       
-                                        
+                                        objects[j].fz  += -forceZ;              
                                 }
                         }
                 }
@@ -141,33 +140,33 @@ void calculateParams(int num_objects, object * objects, double size_enclosure, d
                         objects[i].ax = objects[i].fx/objects[i].mass;
                         objects[i].ay = objects[i].fy/objects[i].mass; 
                         objects[i].az = objects[i].fz/objects[i].mass; 
-                        objects[i].vx = objects[i].vx  + objects[i].ax * time_step; 
-                        objects[i].vy = objects[i].vy + objects[i].ay * time_step;  
-                        objects[i].vz = objects[i].vz  + objects[i].az * time_step;  
-                        objects[i].px += objects[i].vx * time_step;
-                        objects[i].py += objects[i].vy * time_step;
-                        objects[i].pz += objects[i].vz * time_step;
+                        objects[i].vx = objects[i].vx  + time_step * objects[i].ax; 
+                        objects[i].vy = objects[i].vy + time_step * objects[i].ay;  
+                        objects[i].vz = objects[i].vz  + time_step * objects[i].az; 
+                        objects[i].px += time_step * objects[i].vx;
+                        objects[i].py += time_step * objects[i].vy;
+                        objects[i].pz += time_step * objects[i].vz;
                         if(objects[i].px <= 0){
                                 objects[i].px = 1;
-                                objects[i].vx = objects[i].vx * -1;
-                        }
-                        else if(objects[i].px >= size_enclosure){
-                                objects[i].px = size_enclosure;
                                 objects[i].vx = objects[i].vx * -1;
                         }
                         if(objects[i].py <= 0){
                                 objects[i].py = 1;
                                 objects[i].vy = objects[i].vy * -1;
                         }
-                        else if(objects[i].py >= size_enclosure){
-                                objects[i].py = size_enclosure;
-                                objects[i].vy = objects[i].vy * -1;
-                        }
                         if(objects[i].pz <= 0){
                                 objects[i].pz = 1;
                                 objects[i].vz = objects[i].vz * -1;
                         }
-                        else if(objects[i].pz >= size_enclosure){
+                        if(objects[i].px >= size_enclosure){
+                                objects[i].px = size_enclosure;
+                                objects[i].vx = objects[i].vx * -1;
+                        }
+                        if(objects[i].py >= size_enclosure){
+                                objects[i].py = size_enclosure;
+                                objects[i].vy = objects[i].vy * -1;
+                        }
+                        if(objects[i].pz >= size_enclosure){
                                 objects[i].pz = size_enclosure;
                                 objects[i].vz = objects[i].vz * -1;
                         }
@@ -203,20 +202,21 @@ int main (int argc, char * argv[]){
         int num_objects = stoi(argv[1]);
         int num_iterations = stoi(argv[2]);
         int random_seed = stoi(argv[3]);
-        double size_enclosure = stof(argv[4]);
-        double time_step = stof(argv[5]);
+        double size_enclosure = stod(argv[4]);
+        double time_step = stod(argv[5]);
         if (checkParams(num_objects, num_iterations, random_seed, size_enclosure, time_step, numberOfParams) == -1){
                 return -2;
         }
         // Se generan las condiciones iniciales
         mt19937_64 generator(random_seed);
-        uniform_real_distribution <double> dis_uniform(0.0, size_enclosure);
+        uniform_real_distribution <double> dis_uniform(0, size_enclosure);
         normal_distribution <double> dis_normal(10E21, 10E15);
         object objects [num_objects];
         for (int i = 0; i < num_objects; i++){
                 objects[i].px = dis_uniform(generator); 
                 objects[i].py = dis_uniform(generator); 
                 objects[i].pz = dis_uniform(generator); 
+                objects[i].mass = dis_normal(generator);
                 objects[i].fx = 0; 
                 objects[i].fy = 0; 
                 objects[i].fz = 0;
@@ -226,12 +226,10 @@ int main (int argc, char * argv[]){
                 objects[i].vx = 0; 
                 objects[i].vy = 0; 
                 objects[i].vz = 0; 
-                objects[i].mass = dis_normal(generator);
                 objects[i].exists = true;
-        }
-        
+        }  
         // Se generan el documento de la configuracion inicial
-        generateDocuments("./init_config.txt", objects, size_enclosure, time_step, num_objects);
+        generateDocuments("./init_config_aos.txt", objects, size_enclosure, time_step, num_objects);
 
         //Comprobacion de colisiones inicial
         controlColisions(num_objects, objects);
@@ -240,7 +238,7 @@ int main (int argc, char * argv[]){
         iterate(num_objects, objects, size_enclosure, time_step, num_iterations);
 
         // Se generan el documento de la configuracion final
-        generateDocuments("./final_config.txt", objects, size_enclosure, time_step, num_objects);
+        generateDocuments("./final_config_aos.txt", objects, size_enclosure, time_step, num_objects);
         
         // Calculo del tiempo de ejecucion
         struct timeval end;

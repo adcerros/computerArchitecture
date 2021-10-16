@@ -6,7 +6,7 @@
 #include <random>
 #include <sys/time.h>
 
-// Un struct con arrays p[500][3], v[500],[3].... o con [500][14]
+
 using namespace std;
 //Definicion del objeto
 struct object {
@@ -82,9 +82,9 @@ void controlColisions(int num_objects, object objects){
                 if (objects.exists[i]) {
                         for (int j = i + 1; j < num_objects; j++){
                                 if (objects.exists[j]){
-                                        if (objects.p[i][0] == objects.p[j][0] && objects.p[i][1] == objects.p[j][1] 
-                                        && objects.p[i][2] == objects.p[j][2]){
-                                                objects.mass[i] += objects.mass[j];
+                                        if (objects.p[i][0] == objects.p[j][0] & objects.p[i][1] == objects.p[j][1] 
+                                        & objects.p[i][2] == objects.p[j][2]){
+                                         objects.mass[i] +=  objects.mass[j];
                                                 for (int k = 0; k < 3 ; k++){
                                                         objects.v[i][k] +=  objects.v[j][k];                                                               
                                                 }
@@ -118,10 +118,10 @@ void calculateForces(int num_objects, object  objects, double gConst){
                                                 auxVector[k] = objects.p[j][k] - objects.p[i][k];
                                                 botPart += auxVector[k] * auxVector[k]; 
                                         }
-                                        botPart = sqrtf(botPart);
+                                        botPart = sqrt(botPart);
                                         botPart = botPart * botPart * botPart;
                                         for (int k = 0; k < 3 ; k++){
-                                                double force = (gConst * objects.mass[i] * objects.mass[j] * auxVector[k])/botPart; 
+                                                double force = (gConst * objects.mass[i] *  objects.mass[j] * auxVector[k])/botPart; 
                                                 objects.f[i][k]  += force;  
                                                 objects.f[j][k]  += -force;     
                                         }
@@ -137,7 +137,7 @@ void calculateParams(int num_objects, object  objects, double size_enclosure, do
                 if (objects.exists[i]){
                         //Calculo aceleracion, velocidad y posicion de cada objeto  incluyendo colisiones con el contenedor
                         for (int k = 0; k < 3 ; k++){
-                                objects.a[i][k] = objects.f[i][k]/objects.mass[i];  
+                                objects.a[i][k] = objects.f[i][k] / ( objects.mass[i]);  
                                 objects.v[i][k] += objects.a[i][k] * time_step;  
                                 objects.p[i][k] += objects.v[i][k] * time_step;
                                 if(objects.p[i][k] <= 0){
@@ -154,7 +154,7 @@ void calculateParams(int num_objects, object  objects, double size_enclosure, do
 }
 
 void iterate(int num_objects, object  objects, double size_enclosure, double time_step, int num_iterations){
-        static double gConst = 6.674 / pow(10,11);
+        static double gConst = 6.674 / 10E11;
         for (int iteration = 0; iteration < num_iterations; iteration++){
                 // Se reinicializan las fuerzas a 0
                 resetForces(num_objects, objects);
@@ -181,24 +181,28 @@ int main (int argc, char * argv[]){
         int num_objects = stoi(argv[1]);
         int num_iterations = stoi(argv[2]);
         int random_seed = stoi(argv[3]);
-        double size_enclosure = stof(argv[4]);
-        double time_step = stof(argv[5]);
+        double size_enclosure = stod(argv[4]);
+        double time_step = stod(argv[5]);
         if (checkParams(num_objects, num_iterations, random_seed, size_enclosure, time_step, numberOfParams) == -1){
                 return -2;
         }
         // Se generan las condiciones iniciales
         mt19937_64 generator(random_seed);
-        uniform_real_distribution <double> dis_uniform(0.0, size_enclosure);
-        normal_distribution <double> dis_normal(pow(10,21), pow(10,15));
+        uniform_real_distribution <double> dis_uniform(0, size_enclosure);
+        normal_distribution <double> dis_normal(10E21, 10E15);
         object objects;
         objects.exists = new bool[num_objects];
-        objects.p = (double**) malloc (num_objects * 3 * sizeof(double));
-        objects.f = (double**) malloc (num_objects * 3 * sizeof(double));
-        objects.a = (double**) malloc (num_objects * 3 * sizeof(double));
-        objects.v = (double**) malloc (num_objects * 3 * sizeof(double));
-        objects.mass = (double*) malloc (num_objects * sizeof(double));
-        cout << "funciona1\n";
-        cout << "funciona2" << objects.p[0];
+        objects.p = new double *[num_objects];
+        objects.f = new double *[num_objects];
+        objects.a = new double *[num_objects];
+        objects.v = new double *[num_objects];
+        for (int i = 0; i < num_objects; i++){
+                objects.p[i] = new double[3];
+                objects.f[i] = new double[3];
+                objects.a[i] = new double[3];
+                objects.v[i] = new double[3];
+        }
+        objects.mass = new double[num_objects];
         for (int i = 0; i < num_objects; i++){
                 for (int k = 0 ; k < 3; k++){
                         objects.p[i][k] = dis_uniform(generator); 
@@ -206,12 +210,11 @@ int main (int argc, char * argv[]){
                         objects.a[i][k] = 0; 
                         objects.f[i][k] = 0; 
                 }
-                objects.mass[i] = dis_normal(generator);
+                 objects.mass[i] = dis_normal(generator);
                 objects.exists[i] = true;
         }
-        cout << "funciona3\n";
         // Se generan el documento de la configuracion inicial
-        generateDocuments("./init_config.txt", objects, size_enclosure, time_step, num_objects);
+        generateDocuments("./init_config_soa.txt", objects, size_enclosure, time_step, num_objects);
 
         //Comprobacion de colisiones inicial
         controlColisions(num_objects, objects);
@@ -220,7 +223,7 @@ int main (int argc, char * argv[]){
         iterate(num_objects, objects, size_enclosure, time_step, num_iterations);
 
         // Se generan el documento de la configuracion final
-        generateDocuments("./final_config.txt", objects, size_enclosure, time_step, num_objects);
+        generateDocuments("./final_config_soa.txt", objects, size_enclosure, time_step, num_objects);
         
         // Calculo del tiempo de ejecucion
         struct timeval end;
