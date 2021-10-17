@@ -248,7 +248,7 @@ int main (int argc, char * argv[]){
         initParamExit(num_objects, num_iterations, random_seed, size_enclosure, time_step);
 
         // Se generan el documento de la configuracion inicial
-        generateDocuments("./init_config_soa.txt", objects, size_enclosure, time_step, num_objects);
+        generateDocuments("./init_config.txt", objects, size_enclosure, time_step, num_objects);
 
         //Comprobacion de colisiones inicial
         controlColisions(num_objects, objects);
@@ -257,7 +257,7 @@ int main (int argc, char * argv[]){
         iterate(num_objects, objects, size_enclosure, time_step, num_iterations);
 
         // Se generan el documento de la configuracion final
-        generateDocuments("./final_config_soa.txt", objects, size_enclosure, time_step, num_objects);
+        generateDocuments("./final_config.txt", objects, size_enclosure, time_step, num_objects);
 
         return 0;
 }
