@@ -39,7 +39,7 @@ int checkNumberOfParams (int argc, char * argv[], int numberOfParams){
 }
 
 int checkParams(int num_objects, int num_iterations, int random_seed, double size_enclosure, double time_step, int numberOfParams){
-        if (num_objects < 0 | num_iterations < 0 | random_seed <= 0 | size_enclosure <= 0 | time_step <= 0){
+        if ((num_objects < 0) | (num_iterations < 0) | (random_seed <= 0) | (size_enclosure <= 0) | (time_step <= 0)){
                 if (num_objects <= 0){
                         cerr << "Error: Invalid number of objects\n";
                 }
@@ -260,5 +260,5 @@ int main (int argc, char * argv[]){
         long int timeRunning = endms - startms;
         cout << "Execution time; "<<  timeRunning << " milisecond/s" << endl;      
         return 0;
-};
+}
 
