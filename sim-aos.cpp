@@ -26,7 +26,7 @@ int checkNumberOfParams (int argc, char * argv[], int numberOfParams){
                 for (int i = 0; i < argc; i++){
                         auxArray[i] = (string)argv[i];
                 }
-                cerr << "sim-soa invoked with " << numberOfParams  << " parameters.\n";
+                cerr << "sim-aos invoked with " << numberOfParams  << " parameters.\n";
                 cerr << "Arguments:\n";
                 cerr << "  num_objects: " << auxArray[1] << "\n" << "  num_iterations: " << auxArray[2] << "\n";
                 cerr << "  random_seed: " << auxArray[3] << "\n" << "  size_enclosure: " << auxArray[4] << "\n";
@@ -53,7 +53,7 @@ int checkParams(int num_objects, int num_iterations, int random_seed, double siz
                 if (time_step <= 0){
                         cerr << "Error: Invalid time step\n";
                 }
-                cerr << "sim-soa invoked with " << numberOfParams  << " parameters.\n";
+                cerr << "sim-aos invoked with " << numberOfParams  << " parameters.\n";
                 cerr << "Arguments:\n";
                 cerr << "  num_objects: " << num_objects << "\n" << "  num_iterations: " << num_iterations << "\n";
                 cerr << "  random_seed: " << random_seed << "\n" << "  size_enclosure: " << size_enclosure << "\n";
@@ -61,6 +61,13 @@ int checkParams(int num_objects, int num_iterations, int random_seed, double siz
                 return -1;    
         }
         return 0;
+}
+
+void initParamExit(int num_objects, int num_iterations, int random_seed, double size_enclosure, double time_step){
+                cout << "Creating simulation:\n";
+                cout << "  num_objects: " << num_objects << "\n" << "  num_iterations: " << num_iterations << "\n";
+                cout << "  random_seed: " << random_seed << "\n" << "  size_enclosure: " << size_enclosure << "\n";
+                cout << "  time_step: " << time_step << "\n";
 }
 
 void generateDocuments(string path, object * objects, double size_enclosure, double time_step, int num_objects){
@@ -189,10 +196,6 @@ void iterate(int num_objects, object * objects, double size_enclosure, double ti
 }
 
 int main (int argc, char * argv[]){
-        // Calculo del tiempo de ejecucion
-        struct timeval start;
-        gettimeofday(&start, NULL);
-        long int startms = start.tv_sec * 1000 + start.tv_usec / 1000;
         // Comprobacion del numero de entradas
         int numberOfParams = argc - 1;
         if (checkNumberOfParams(argc, argv, numberOfParams) == -1){
@@ -211,7 +214,7 @@ int main (int argc, char * argv[]){
         mt19937_64 generator(random_seed);
         uniform_real_distribution <double> dis_uniform(0, size_enclosure);
         normal_distribution <double> dis_normal(10E21, 10E15);
-        object objects [num_objects];
+        object * objects = new object [num_objects];
         for (int i = 0; i < num_objects; i++){
                 objects[i].exists = true;
                 objects[i].px = dis_uniform(generator); 
@@ -227,7 +230,10 @@ int main (int argc, char * argv[]){
                 objects[i].vx = 0; 
                 objects[i].vy = 0; 
                 objects[i].vz = 0; 
-        }  
+        } 
+        // Se imprimen los parametros 
+        initParamExit(num_objects, num_iterations, random_seed, size_enclosure, time_step);
+        
         // Se generan el documento de la configuracion inicial
         generateDocuments("./init_config_aos.txt", objects, size_enclosure, time_step, num_objects);
 
@@ -239,13 +245,7 @@ int main (int argc, char * argv[]){
 
         // Se generan el documento de la configuracion final
         generateDocuments("./final_config_aos.txt", objects, size_enclosure, time_step, num_objects);
-        
-        // Calculo del tiempo de ejecucion
-        struct timeval end;
-        gettimeofday(&end, NULL);
-        long int endms = end.tv_sec * 1000 + end.tv_usec / 1000;
-        long int timeRunning = endms - startms;
-        cout << "Execution time; "<<  timeRunning << " milisecond/s" << endl;      
+            
         return 0;
 }
 

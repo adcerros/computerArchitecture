@@ -65,6 +65,13 @@ int checkParams(int num_objects, int num_iterations, int random_seed, double siz
         return 0;
 }
 
+void initParamExit(int num_objects, int num_iterations, int random_seed, double size_enclosure, double time_step){
+                cout << "Creating simulation:\n";
+                cout << "  num_objects: " << num_objects << "\n" << "  num_iterations: " << num_iterations << "\n";
+                cout << "  random_seed: " << random_seed << "\n" << "  size_enclosure: " << size_enclosure << "\n";
+                cout << "  time_step: " << time_step << "\n";
+}
+
 void generateDocuments(string path, object objects, double size_enclosure, double time_step, int num_objects){
         ofstream file;
         file.open(path, ofstream::out | ofstream::trunc);
@@ -190,10 +197,6 @@ void iterate(int num_objects, object  objects, double size_enclosure, double tim
 }
 
 int main (int argc, char * argv[]){
-        // Calculo del tiempo de ejecucion
-        struct timeval start;
-        gettimeofday(&start, NULL);
-        long int startms = start.tv_sec * 1000 + start.tv_usec / 1000;
         // Comprobacion del numero de entradas
         int numberOfParams = argc - 1;
         if (checkNumberOfParams(argc, argv, numberOfParams) == -1){
@@ -241,6 +244,9 @@ int main (int argc, char * argv[]){
                 objects.mass[i] = dis_normal(generator);
                 objects.exists[i] = true;
         }
+        // Se imprimen los parametros 
+        initParamExit(num_objects, num_iterations, random_seed, size_enclosure, time_step);
+
         // Se generan el documento de la configuracion inicial
         generateDocuments("./init_config_soa.txt", objects, size_enclosure, time_step, num_objects);
 
@@ -253,12 +259,6 @@ int main (int argc, char * argv[]){
         // Se generan el documento de la configuracion final
         generateDocuments("./final_config_soa.txt", objects, size_enclosure, time_step, num_objects);
 
-        // Calculo del tiempo de ejecucion
-        struct timeval end;
-        gettimeofday(&end, NULL);
-        long int endms = end.tv_sec * 1000 + end.tv_usec / 1000;
-        long int timeRunning = endms - startms;
-        cout << "Execution time; "<<  timeRunning << " milisecond/s" << endl;      
         return 0;
 }
 
