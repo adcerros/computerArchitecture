@@ -144,7 +144,7 @@ void calculateForces(int num_objects, object * objects, double gConst){
                                         double auxVectorY = objects[j].py - objects[i].py;
                                         double auxVectorZ = objects[j].pz - objects[i].pz;
                                         double botPart = (auxVectorX * auxVectorX) + (auxVectorY * auxVectorY) + (auxVectorZ * auxVectorZ); 
-                                        botPart = sqrt(botPart);
+                                        botPart = std::sqrt(botPart);
                                         botPart = botPart * botPart * botPart;
                                         double forceX = (gConst * objects[i].mass * objects[j].mass * auxVectorX)/botPart;
                                         double forceY = (gConst * objects[i].mass * objects[j].mass * auxVectorY)/botPart; 
