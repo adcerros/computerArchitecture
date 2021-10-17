@@ -245,9 +245,6 @@ int main (int argc, char * argv[]){
 
         // Se generan el documento de la configuracion final
         generateDocuments("./final_config.txt", objects, size_enclosure, time_step, num_objects);
-
-        // Se libera la memoria
-        free(objects);
             
         return 0;
 }
