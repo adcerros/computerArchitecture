@@ -63,6 +63,28 @@ int checkParams(int num_objects, int num_iterations, int random_seed, double siz
         return 0;
 }
 
+void initParam(object * objects, int num_objects, int random_seed, double size_enclosure ){
+        mt19937_64 generator(random_seed);
+        uniform_real_distribution <double> dis_uniform(0, size_enclosure);
+        normal_distribution <double> dis_normal(10E21, 10E15);
+        for (int i = 0; i < num_objects; i++){
+                objects[i].exists = true;
+                objects[i].px = dis_uniform(generator); 
+                objects[i].py = dis_uniform(generator); 
+                objects[i].pz = dis_uniform(generator); 
+                objects[i].mass = dis_normal(generator);
+                objects[i].fx = 0; 
+                objects[i].fy = 0; 
+                objects[i].fz = 0;
+                objects[i].ax = 0; 
+                objects[i].ay = 0; 
+                objects[i].az = 0;  
+                objects[i].vx = 0; 
+                objects[i].vy = 0; 
+                objects[i].vz = 0; 
+        } 
+}
+
 void initParamExit(int num_objects, int num_iterations, int random_seed, double size_enclosure, double time_step){
                 cout << "Creating simulation:\n";
                 cout << "  num_objects: " << num_objects << "\n" << "  num_iterations: " << num_iterations << "\n";
@@ -210,27 +232,12 @@ int main (int argc, char * argv[]){
         if (checkParams(num_objects, num_iterations, random_seed, size_enclosure, time_step, numberOfParams) == -1){
                 return -2;
         }
-        // Se generan las condiciones iniciales
-        mt19937_64 generator(random_seed);
-        uniform_real_distribution <double> dis_uniform(0, size_enclosure);
-        normal_distribution <double> dis_normal(10E21, 10E15);
+        // Se generan las estructuras de datos
         object * objects = new object [num_objects];
-        for (int i = 0; i < num_objects; i++){
-                objects[i].exists = true;
-                objects[i].px = dis_uniform(generator); 
-                objects[i].py = dis_uniform(generator); 
-                objects[i].pz = dis_uniform(generator); 
-                objects[i].mass = dis_normal(generator);
-                objects[i].fx = 0; 
-                objects[i].fy = 0; 
-                objects[i].fz = 0;
-                objects[i].ax = 0; 
-                objects[i].ay = 0; 
-                objects[i].az = 0;  
-                objects[i].vx = 0; 
-                objects[i].vy = 0; 
-                objects[i].vz = 0; 
-        } 
+
+        // Se generan las condiciones iniciales
+        initParam(objects, num_objects, random_seed, size_enclosure);
+
         // Se imprimen los parametros 
         initParamExit(num_objects, num_iterations, random_seed, size_enclosure, time_step);
 
