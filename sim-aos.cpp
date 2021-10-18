@@ -28,7 +28,7 @@ int checkNumberOfParams (int argc, char * argv[], int numberOfParams){
                 for (int i = 0; i < argc; i++){
                         auxArray[i] = (string)argv[i];
                 }
-                cerr << "sim-aos invoked with " << numberOfParams  << " parameters.\n";
+                cerr << "./sim-aos invoked with " << numberOfParams  << " parameters.\n";
                 cerr << "Arguments:\n";
                 cerr << "  num_objects: " << auxArray[1] << "\n" << "  num_iterations: " << auxArray[2] << "\n";
                 cerr << "  random_seed: " << auxArray[3] << "\n" << "  size_enclosure: " << auxArray[4] << "\n";
@@ -56,7 +56,7 @@ int checkParams(int num_objects, int num_iterations, int random_seed, double siz
                 if (time_step <= 0){
                         cerr << "Error: Invalid time step\n";
                 }
-                cerr << "sim-aos invoked with " << numberOfParams  << " parameters.\n";
+                cerr << "./sim-aos invoked with " << numberOfParams  << " parameters.\n";
                 cerr << "Arguments:\n";
                 cerr << "  num_objects: " << num_objects << "\n" << "  num_iterations: " << num_iterations << "\n";
                 cerr << "  random_seed: " << random_seed << "\n" << "  size_enclosure: " << size_enclosure << "\n";
