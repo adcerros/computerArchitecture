@@ -7,7 +7,8 @@
 #include <sys/time.h>
 
 using namespace std;
-//Definicion del objeto
+
+//Definicion del objeto donde se tiene: existencia o no del objeto, vectores de posicion, fuerza, aceleracion y velocidad y masa
 struct object {
         bool exists;
         double px, py, pz;
@@ -17,6 +18,7 @@ struct object {
         double mass;
 };
 
+// Se comprueba el numero de argumentos de entrada
 int checkNumberOfParams (int argc, char * argv[], int numberOfParams){
         if (numberOfParams!= 5){
                 string auxArray[6] = {"?"};
@@ -36,6 +38,7 @@ int checkNumberOfParams (int argc, char * argv[], int numberOfParams){
         return 0;
 }
 
+//Se comprueba que los parametros de entrada son validos
 int checkParams(int num_objects, int num_iterations, int random_seed, double size_enclosure, double time_step, int numberOfParams){
         if ((num_objects < 0) | (num_iterations < 0) | (random_seed <= 0) | (size_enclosure <= 0) | (time_step <= 0)){
                 if (num_objects <= 0){
@@ -63,6 +66,7 @@ int checkParams(int num_objects, int num_iterations, int random_seed, double siz
         return 0;
 }
 
+//Se inicializan los parametros de los objetos
 void initParam(object * objects, int num_objects, int random_seed, double size_enclosure ){
         mt19937_64 generator(random_seed);
         uniform_real_distribution <double> dis_uniform(0, size_enclosure);
@@ -85,6 +89,7 @@ void initParam(object * objects, int num_objects, int random_seed, double size_e
         } 
 }
 
+//Se muestran por la salida estandar los parametros del programa
 void initParamExit(int num_objects, int num_iterations, int random_seed, double size_enclosure, double time_step){
                 cout << "Creating simulation:\n";
                 cout << "  num_objects: " << num_objects << "\n" << "  num_iterations: " << num_iterations << "\n";
@@ -92,6 +97,7 @@ void initParamExit(int num_objects, int num_iterations, int random_seed, double 
                 cout << "  time_step: " << time_step << "\n";
 }
 
+//Metodo para generar los documentos de salida con las configuraciones iniciales y finales
 void generateDocuments(string path, object * objects, double size_enclosure, double time_step, int num_objects){
         ofstream file;
         file.open(path, ofstream::out | ofstream::trunc);
@@ -104,6 +110,7 @@ void generateDocuments(string path, object * objects, double size_enclosure, dou
         file.close();       
 }
 
+//Se controlan las colisiones de los objetos
 void controlColisions(int num_objects, object * objects){
         for (int i = 0; i < num_objects-1; i++){
                 if (objects[i].exists) {
@@ -123,7 +130,7 @@ void controlColisions(int num_objects, object * objects){
         }
 }
 
-
+//Al inicio de cada iteraccion se reinicializan las fuerzas de cada objeto a cero
 void resetForces(int num_objects, object * objects){
                 for (int i = 0; i < num_objects; i++){
                         if (objects[i].exists) {
@@ -134,12 +141,13 @@ void resetForces(int num_objects, object * objects){
                 }
 }
 
+//Calculo de las fuerzas, se reliza simultaneamente el calculo de las fuerzas ij y ji
 void calculateForces(int num_objects, object * objects, double gConst){
         //Calculo de fuerzas
         for (int i = 0; i < num_objects - 1; i++){
                 if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
-                                if (objects[j].exists && (i != j)){                                              
+                                if (objects[j].exists){                                              
                                         double auxVectorX = objects[j].px - objects[i].px;
                                         double auxVectorY = objects[j].py - objects[i].py;
                                         double auxVectorZ = objects[j].pz - objects[i].pz;
@@ -161,6 +169,8 @@ void calculateForces(int num_objects, object * objects, double gConst){
         }
 }
 
+// Calculo de velocidades, aceleraciones y posiciones.
+// Se comprueba ademas que el objeto se encuentra dentro del cubo, de lo contrario se le reposiciona
 void calculateParams(int num_objects, object * objects, double size_enclosure, double time_step){
         // Calculo de velocidades, aceleraciones y posiciones
         for (int i = 0; i < num_objects; i++){
@@ -203,6 +213,7 @@ void calculateParams(int num_objects, object * objects, double size_enclosure, d
         }
 }
 
+//Bucle principal del programa realiza las iteracciones
 void iterate(int num_objects, object * objects, double size_enclosure, double time_step, int num_iterations){
         static double gConst = 6.674 / 10E11;
         for (int iteration = 0; iteration < num_iterations; iteration++){
