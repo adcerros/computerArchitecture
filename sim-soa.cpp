@@ -215,7 +215,7 @@ void calculateParams(int num_objects, object  objects, double size_enclosure, do
 
 //Bucle principal del programa realiza las iteracciones
 void iterate(int num_objects, object  objects, double size_enclosure, double time_step, int num_iterations){
-        static double gConst = 6.674 / 10E11;
+        static double gConst = 6.674 / 1E11;
         for (int iteration = 0; iteration < num_iterations; iteration++){
                 // Se reinicializan las fuerzas a 0
                 resetForces(num_objects, objects);
