@@ -70,7 +70,7 @@ int checkParams(int num_objects, int num_iterations, int random_seed, double siz
 void initParam(object * objects, int num_objects, int random_seed, double size_enclosure ){
         mt19937_64 generator(random_seed);
         uniform_real_distribution <double> dis_uniform(0, size_enclosure);
-        normal_distribution <double> dis_normal(10E21, 10E15);
+        normal_distribution <double> dis_normal(1E21, 1E15);
         for (int i = 0; i < num_objects; i++){
                 objects[i].exists = true;
                 objects[i].px = dis_uniform(generator); 
