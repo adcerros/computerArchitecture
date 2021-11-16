@@ -5,6 +5,8 @@
 #include <cmath>
 #include <random>
 #include <sys/time.h>
+#include <chrono>
+#include <omp.h>
 
 using namespace std;
 
@@ -71,6 +73,7 @@ void initParam(object * objects, int num_objects, int random_seed, double size_e
         mt19937_64 generator(random_seed);
         uniform_real_distribution <double> dis_uniform(0, size_enclosure);
         normal_distribution <double> dis_normal(1E21, 1E15);
+        #pragma omp parallel for
         for (int i = 0; i < num_objects; i++){
                 objects[i].exists = true;
                 objects[i].px = dis_uniform(generator); 
@@ -112,6 +115,7 @@ void generateDocuments(string path, object * objects, double size_enclosure, dou
 
 //Se controlan las colisiones de los objetos
 void controlColisions(int num_objects, object * objects){
+        #pragma omp parallel for
         for (int i = 0; i < num_objects-1; i++){
                 if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
@@ -132,6 +136,7 @@ void controlColisions(int num_objects, object * objects){
 
 //Al inicio de cada iteraccion se reinicializan las fuerzas de cada objeto a cero
 void resetForces(int num_objects, object * objects){
+        #pragma omp parallel for
                 for (int i = 0; i < num_objects; i++){
                         if (objects[i].exists) {
                                 objects[i].fx = 0;
@@ -144,6 +149,7 @@ void resetForces(int num_objects, object * objects){
 //Calculo de las fuerzas, se reliza simultaneamente el calculo de las fuerzas ij y ji
 void calculateForces(int num_objects, object * objects, double gConst){
         //Calculo de fuerzas
+        #pragma omp parallel for
         for (int i = 0; i < num_objects - 1; i++){
                 if (objects[i].exists) {
                         for (int j = i + 1; j < num_objects; j++){
@@ -173,6 +179,7 @@ void calculateForces(int num_objects, object * objects, double gConst){
 // Se comprueba ademas que el objeto se encuentra dentro del cubo, de lo contrario se le reposiciona
 void calculateParams(int num_objects, object * objects, double size_enclosure, double time_step){
         // Calculo de velocidades, aceleraciones y posiciones
+        #pragma omp parallel for
         for (int i = 0; i < num_objects; i++){
                 if (objects[i].exists){
                         //Calculo aceleracion, velocidad y posicion de cada objeto  incluyendo colisiones con el contenedor
